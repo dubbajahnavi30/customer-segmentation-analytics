@@ -1,5 +1,12 @@
 # Customer Segmentation and Predictive Analytics System
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-6366f1?style=for-the-badge&logo=github)](https://dubbajahnavi30.github.io/customer-segmentation-analytics/)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-orange?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
+[![MySQL Ready](https://img.shields.io/badge/Database-MySQL-00758F?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
+
+> **🌐 Live Interactive Web Dashboard:** [https://dubbajahnavi30.github.io/customer-segmentation-analytics/](https://dubbajahnavi30.github.io/customer-segmentation-analytics/)
+
 An academically rigorous, reproducible Python data analytics project implementing **Rule-Based RFM Segmentation**, **K-Means Clustering Comparative Analytics**, and **MySQL Database Integration**.
 
 ---
