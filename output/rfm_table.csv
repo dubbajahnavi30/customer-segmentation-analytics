@@ -1,0 +1,148 @@
+customer_id,customer_code,recency,frequency,monetary,R_Score,F_Score,M_Score,RFM_Score,RFM_Mean,segment_label,kmeans_cluster_id,kmeans_cluster
+1,CUST-0001,4,11,4341.21,5,5,5,555,5.0,Champions,2,Cluster 2
+2,CUST-0002,18,10,3412.71,4,5,5,455,4.67,Champions,2,Cluster 2
+3,CUST-0003,2,11,5767.96,5,5,5,555,5.0,Champions,2,Cluster 2
+4,CUST-0004,1,10,7958.09,5,5,5,555,5.0,Champions,2,Cluster 2
+5,CUST-0005,12,6,6953.72,5,4,5,545,4.67,Champions,2,Cluster 2
+6,CUST-0006,4,10,8596.92,5,5,5,555,5.0,Champions,2,Cluster 2
+7,CUST-0007,22,7,8828.01,4,4,5,445,4.33,Champions,2,Cluster 2
+8,CUST-0008,44,7,4897.17,3,4,5,345,4.0,Loyal Customers,0,Cluster 0
+9,CUST-0009,18,7,3804.41,4,4,5,445,4.33,Champions,2,Cluster 2
+10,CUST-0010,18,10,11152.63,4,5,5,455,4.67,Champions,2,Cluster 2
+11,CUST-0011,4,5,3636.22,5,3,5,535,4.33,Loyal Customers,2,Cluster 2
+12,CUST-0012,18,8,5222.35,4,5,5,455,4.67,Champions,2,Cluster 2
+13,CUST-0013,8,10,12711.9,5,5,5,555,5.0,Champions,2,Cluster 2
+14,CUST-0014,15,11,4283.77,5,5,5,555,5.0,Champions,2,Cluster 2
+15,CUST-0015,4,7,1547.74,5,4,4,544,4.33,Champions,2,Cluster 2
+16,CUST-0016,3,7,3935.08,5,4,5,545,4.67,Champions,2,Cluster 2
+17,CUST-0017,5,9,3773.78,5,5,5,555,5.0,Champions,2,Cluster 2
+18,CUST-0018,12,10,6662.99,5,5,5,555,5.0,Champions,2,Cluster 2
+19,CUST-0019,16,11,4238.18,5,5,5,555,5.0,Champions,2,Cluster 2
+20,CUST-0020,5,12,9281.75,5,5,5,555,5.0,Champions,2,Cluster 2
+21,CUST-0021,3,9,3193.62,5,5,5,555,5.0,Champions,2,Cluster 2
+22,CUST-0022,17,8,2273.72,4,5,4,454,4.33,Champions,2,Cluster 2
+23,CUST-0023,10,12,11410.02,5,5,5,555,5.0,Champions,2,Cluster 2
+24,CUST-0024,16,11,11315.23,5,5,5,555,5.0,Champions,2,Cluster 2
+25,CUST-0025,4,12,16071.06,5,5,5,555,5.0,Champions,2,Cluster 2
+26,CUST-0026,39,4,967.86,3,3,3,333,3.0,Loyal Customers,0,Cluster 0
+27,CUST-0027,140,6,1263.78,2,4,3,243,3.0,At Risk,0,Cluster 0
+28,CUST-0028,43,4,846.36,3,3,3,333,3.0,Loyal Customers,0,Cluster 0
+29,CUST-0029,133,3,880.41,2,3,3,233,2.67,At Risk,0,Cluster 0
+30,CUST-0030,46,6,1450.7,3,4,4,344,3.67,Loyal Customers,0,Cluster 0
+31,CUST-0031,35,5,1538.22,4,3,4,434,3.67,Loyal Customers,0,Cluster 0
+32,CUST-0032,38,5,1259.71,3,3,3,333,3.0,Loyal Customers,0,Cluster 0
+33,CUST-0033,52,6,1008.41,3,4,3,343,3.33,Loyal Customers,0,Cluster 0
+34,CUST-0034,40,7,2280.06,3,4,4,344,3.67,Loyal Customers,0,Cluster 0
+35,CUST-0035,55,7,1105.29,3,4,3,343,3.33,Loyal Customers,0,Cluster 0
+36,CUST-0036,45,7,1959.67,3,5,4,354,4.0,Loyal Customers,0,Cluster 0
+37,CUST-0037,36,6,1960.96,4,4,4,444,4.0,Champions,0,Cluster 0
+38,CUST-0038,49,4,643.45,3,3,2,332,2.67,Potential Loyalists,0,Cluster 0
+39,CUST-0039,90,3,409.32,2,3,2,232,2.33,At Risk,0,Cluster 0
+40,CUST-0040,22,7,1428.43,4,5,3,453,4.0,Loyal Customers,0,Cluster 0
+41,CUST-0041,117,5,1581.65,2,3,4,234,3.0,At Risk,0,Cluster 0
+42,CUST-0042,21,5,1319.78,4,3,3,433,3.33,Loyal Customers,0,Cluster 0
+43,CUST-0043,46,6,2060.77,3,4,4,344,3.67,Loyal Customers,0,Cluster 0
+44,CUST-0044,22,6,985.91,4,4,3,443,3.67,Loyal Customers,0,Cluster 0
+45,CUST-0045,63,7,1899.72,3,5,4,354,4.0,Loyal Customers,0,Cluster 0
+46,CUST-0046,51,7,882.26,3,5,3,353,3.67,Loyal Customers,0,Cluster 0
+47,CUST-0047,36,5,1274.75,4,3,3,433,3.33,Loyal Customers,0,Cluster 0
+48,CUST-0048,52,7,3137.3,3,5,5,355,4.33,Loyal Customers,0,Cluster 0
+49,CUST-0049,59,7,1400.89,3,5,3,353,3.67,Loyal Customers,0,Cluster 0
+50,CUST-0050,60,3,1074.75,3,3,3,333,3.0,Loyal Customers,0,Cluster 0
+51,CUST-0051,28,7,2546.0,4,5,4,454,4.33,Champions,0,Cluster 0
+52,CUST-0052,23,4,608.27,4,3,2,432,3.0,Potential Loyalists,0,Cluster 0
+53,CUST-0053,26,5,1447.47,4,3,4,434,3.67,Loyal Customers,0,Cluster 0
+54,CUST-0054,44,5,884.18,3,3,3,333,3.0,Loyal Customers,0,Cluster 0
+55,CUST-0055,38,4,1621.95,3,3,4,334,3.33,Loyal Customers,0,Cluster 0
+56,CUST-0056,36,3,2467.93,3,3,4,334,3.33,Loyal Customers,0,Cluster 0
+57,CUST-0057,74,2,3185.99,2,1,5,215,2.67,Big Spenders,0,Cluster 0
+58,CUST-0058,59,1,1609.93,3,1,4,314,2.67,Big Spenders,3,Cluster 3
+59,CUST-0059,47,3,1785.95,3,3,4,334,3.33,Loyal Customers,0,Cluster 0
+60,CUST-0060,45,2,2615.94,3,2,4,324,3.0,Big Spenders,0,Cluster 0
+61,CUST-0061,28,3,2565.97,4,3,4,434,3.67,Loyal Customers,0,Cluster 0
+62,CUST-0062,47,3,2266.96,3,3,4,334,3.33,Loyal Customers,0,Cluster 0
+63,CUST-0063,11,3,4648.91,5,3,5,535,4.33,Loyal Customers,2,Cluster 2
+64,CUST-0064,60,3,3235.92,3,3,5,335,3.67,Loyal Customers,0,Cluster 0
+65,CUST-0065,22,3,1177.96,4,3,3,433,3.33,Loyal Customers,0,Cluster 0
+66,CUST-0066,58,2,2606.94,3,2,4,324,3.0,Big Spenders,0,Cluster 0
+67,CUST-0067,41,1,649.97,3,1,2,312,2.0,Potential Loyalists,3,Cluster 3
+68,CUST-0068,39,2,1327.99,3,2,3,323,2.67,Potential Loyalists,0,Cluster 0
+69,CUST-0069,70,1,519.96,2,1,2,212,1.67,Lost Customers,3,Cluster 3
+70,CUST-0070,19,1,299.98,4,1,2,412,2.33,New Customers,3,Cluster 3
+71,CUST-0071,21,2,179.94,4,2,1,421,2.33,New Customers,3,Cluster 3
+72,CUST-0072,33,2,763.29,4,2,3,423,3.0,New Customers,3,Cluster 3
+73,CUST-0073,8,2,149.99,5,2,1,521,2.67,New Customers,3,Cluster 3
+74,CUST-0074,10,1,369.83,5,1,2,512,2.67,New Customers,3,Cluster 3
+75,CUST-0075,12,1,45.0,5,1,1,511,2.33,New Customers,3,Cluster 3
+76,CUST-0076,6,2,620.4,5,2,2,522,3.0,New Customers,3,Cluster 3
+77,CUST-0077,38,1,268.5,3,1,2,312,2.0,Potential Loyalists,3,Cluster 3
+78,CUST-0078,32,2,216.0,4,2,2,422,2.67,New Customers,3,Cluster 3
+79,CUST-0079,36,2,721.47,3,2,2,322,2.33,Potential Loyalists,3,Cluster 3
+80,CUST-0080,8,2,309.0,5,2,2,522,3.0,New Customers,3,Cluster 3
+81,CUST-0081,1,1,59.98,5,1,1,511,2.33,New Customers,3,Cluster 3
+82,CUST-0082,18,1,223.49,4,1,2,412,2.33,New Customers,3,Cluster 3
+83,CUST-0083,29,2,364.97,4,2,2,422,2.67,New Customers,3,Cluster 3
+84,CUST-0084,3,1,364.97,5,1,2,512,2.67,New Customers,3,Cluster 3
+86,CUST-0086,1,2,133.49,5,2,1,521,2.67,New Customers,3,Cluster 3
+87,CUST-0087,31,2,433.96,4,2,2,422,2.67,New Customers,3,Cluster 3
+88,CUST-0088,21,2,104.5,4,2,1,421,2.33,New Customers,3,Cluster 3
+89,CUST-0089,16,1,59.99,4,1,1,411,2.0,New Customers,3,Cluster 3
+90,CUST-0090,16,2,797.43,4,2,3,423,3.0,New Customers,3,Cluster 3
+91,CUST-0091,14,1,268.5,5,1,2,512,2.67,New Customers,3,Cluster 3
+92,CUST-0092,4,2,134.99,5,2,1,521,2.67,New Customers,3,Cluster 3
+93,CUST-0093,25,2,133.49,4,2,1,421,2.33,New Customers,3,Cluster 3
+94,CUST-0094,38,1,179.97,3,1,1,311,1.67,Potential Loyalists,3,Cluster 3
+95,CUST-0095,19,1,499.9,4,1,2,412,2.33,New Customers,3,Cluster 3
+96,CUST-0096,186,5,893.81,2,4,3,243,3.0,At Risk,0,Cluster 0
+97,CUST-0097,203,5,2331.08,2,4,4,244,3.33,At Risk,0,Cluster 0
+98,CUST-0098,211,4,1019.44,2,3,3,233,2.67,At Risk,0,Cluster 0
+99,CUST-0099,227,5,2768.27,2,4,4,244,3.33,At Risk,0,Cluster 0
+100,CUST-0100,231,7,2900.77,2,5,5,255,4.0,At Risk,0,Cluster 0
+101,CUST-0101,237,6,1362.04,1,4,3,143,2.67,At Risk,0,Cluster 0
+102,CUST-0102,155,4,1399.89,2,3,3,233,2.67,At Risk,0,Cluster 0
+103,CUST-0103,175,5,1716.78,2,4,4,244,3.33,At Risk,0,Cluster 0
+104,CUST-0104,197,5,748.93,2,4,2,242,2.67,At Risk,0,Cluster 0
+105,CUST-0105,191,6,826.75,2,4,3,243,3.0,At Risk,0,Cluster 0
+106,CUST-0106,240,7,933.9,1,5,3,153,3.0,At Risk,0,Cluster 0
+107,CUST-0107,159,8,2152.08,2,5,4,254,3.67,At Risk,0,Cluster 0
+108,CUST-0108,221,6,837.73,2,4,3,243,3.0,At Risk,0,Cluster 0
+109,CUST-0109,165,6,2928.3,2,4,5,245,3.67,At Risk,0,Cluster 0
+110,CUST-0110,141,5,911.96,2,4,3,243,3.0,At Risk,0,Cluster 0
+111,CUST-0111,134,5,2609.57,2,4,4,244,3.33,At Risk,0,Cluster 0
+112,CUST-0112,170,5,2509.68,2,4,4,244,3.33,At Risk,0,Cluster 0
+113,CUST-0113,160,3,484.81,2,3,2,232,2.33,At Risk,0,Cluster 0
+114,CUST-0114,167,7,2991.0,2,5,5,255,4.0,At Risk,0,Cluster 0
+115,CUST-0115,160,6,1813.21,2,4,4,244,3.33,At Risk,0,Cluster 0
+116,CUST-0116,120,4,849.42,2,3,3,233,2.67,At Risk,0,Cluster 0
+117,CUST-0117,185,4,2223.61,2,3,4,234,3.0,At Risk,0,Cluster 0
+118,CUST-0118,231,5,1660.88,2,4,4,244,3.33,At Risk,0,Cluster 0
+119,CUST-0119,166,8,1273.96,2,5,3,253,3.33,At Risk,0,Cluster 0
+120,CUST-0120,181,5,1385.01,2,4,3,243,3.0,At Risk,0,Cluster 0
+121,CUST-0121,327,1,164.99,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+122,CUST-0122,389,2,652.27,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+123,CUST-0123,469,2,299.7,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+125,CUST-0125,348,2,209.83,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+126,CUST-0126,476,2,190.5,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+127,CUST-0127,355,1,55.5,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+128,CUST-0128,362,2,118.5,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+129,CUST-0129,359,1,37.0,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+130,CUST-0130,390,1,55.5,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+132,CUST-0132,286,2,90.5,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+133,CUST-0133,307,1,45.0,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+134,CUST-0134,430,2,104.99,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+135,CUST-0135,354,2,156.95,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+136,CUST-0136,352,2,146.0,1,2,1,121,1.33,Lost Customers,1,Cluster 1
+137,CUST-0137,363,1,179.97,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+138,CUST-0138,437,2,218.3,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+139,CUST-0139,357,1,104.5,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+140,CUST-0140,271,2,204.9,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+141,CUST-0141,473,1,223.0,1,1,2,112,1.33,Lost Customers,1,Cluster 1
+142,CUST-0142,410,2,219.99,1,2,2,122,1.67,Lost Customers,1,Cluster 1
+143,CUST-0143,289,1,59.98,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+144,CUST-0144,434,2,179.97,1,3,1,131,1.67,At Risk,1,Cluster 1
+145,CUST-0145,403,1,84.0,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+146,CUST-0146,311,1,45.0,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+147,CUST-0147,295,1,29.99,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+148,CUST-0148,332,1,73.5,1,1,1,111,1.0,Lost Customers,1,Cluster 1
+149,CUST-0149,364,1,359.68,1,1,2,112,1.33,Lost Customers,1,Cluster 1
+150,CUST-0150,283,2,299.97,1,3,2,132,2.0,At Risk,1,Cluster 1

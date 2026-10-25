@@ -1,0 +1,5 @@
+Cluster,Customer Count,% Customers,Avg Recency,Avg Frequency,Avg Monetary,Total Spending,Cluster Characterization
+Cluster 0,66,44.9,100.9,5.0,1687.82,111395.88,"Low Recency (Dormant), High Frequency, High Monetary"
+Cluster 1,28,19.05,365.2,1.5,164.64,4609.98,"Low Recency (Dormant), Low Frequency, Low Monetary"
+Cluster 2,25,17.01,10.0,9.1,6600.88,165021.98,"High Recency (Active), High Frequency, High Monetary"
+Cluster 3,28,19.05,22.5,1.5,374.39,10482.89,"High Recency (Active), Low Frequency, Low Monetary"

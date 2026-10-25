@@ -1,0 +1,8 @@
+Segment,Customer Count,% Customers,Avg Recency,Avg Frequency,Avg Monetary,Total Spending,Spending Patterns,General Characteristics
+Champions,25,17.01,12.0,9.3,6449.75,161243.81,High cumulative spend and high order frequency.,"Bought recently, purchase often, and spend heavily. Core high-value customer base."
+Loyal Customers,31,21.09,39.7,5.1,1887.66,58517.43,"Above-average spend across steady, recurring orders.",Consistent repeat purchasers with good recency and healthy engagement.
+Big Spenders,4,2.72,59.0,1.8,2504.7,10018.8,Substantial monetary spend per transaction despite low overall frequency.,"Infrequent buyers who purchase premium, high-ticket items when they do order."
+Potential Loyalists,7,4.76,37.7,2.1,628.52,4399.62,Moderate spending with steady potential.,Recent buyers with moderate frequency and spending; balanced intermediate profile.
+New Customers,22,14.97,15.8,1.6,296.96,6533.09,Low to moderate initial spend on introductory purchases.,Transacted very recently (1-2 purchases total). Fresh additions to the customer base.
+At Risk,31,21.09,187.4,5.1,1488.64,46147.98,"Historically significant spending and frequency, now inactive.",Previously frequent or high-value shoppers who have not purchased in recent months.
+Lost Customers,27,18.37,354.8,1.4,172.22,4650.0,Minimal cumulative monetary contribution.,Purchased long ago with low frequency and low spend; likely churned entirely.

@@ -1,0 +1,1782 @@
+order_id,customer_id,customer_code,order_date,order_status,product_id,product_name,quantity,unit_price
+10001,1,CUST-0001,2023-03-16 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10001,1,CUST-0001,2023-03-16 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10001,1,CUST-0001,2023-03-16 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10001,1,CUST-0001,2023-03-16 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10002,1,CUST-0001,2023-05-01 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10003,1,CUST-0001,2023-05-24 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10003,1,CUST-0001,2023-05-24 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10003,1,CUST-0001,2023-05-24 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10004,1,CUST-0001,2023-08-17 03:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10004,1,CUST-0001,2023-08-17 03:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10004,1,CUST-0001,2023-08-17 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10005,1,CUST-0001,2023-10-03 07:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10006,1,CUST-0001,2023-10-26 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10006,1,CUST-0001,2023-10-26 09:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10007,1,CUST-0001,2024-01-08 10:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10008,1,CUST-0001,2024-02-08 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10009,1,CUST-0001,2024-03-13 05:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10009,1,CUST-0001,2024-03-13 05:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10010,1,CUST-0001,2024-04-30 08:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10010,1,CUST-0001,2024-04-30 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10011,1,CUST-0001,2024-06-24 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10012,2,CUST-0002,2022-10-21 14:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10012,2,CUST-0002,2022-10-21 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10012,2,CUST-0002,2022-10-21 14:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10013,2,CUST-0002,2022-12-11 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10014,2,CUST-0002,2023-02-03 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10014,2,CUST-0002,2023-02-03 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10015,2,CUST-0002,2023-04-22 05:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10016,2,CUST-0002,2023-07-14 12:00:00,Refunded,PROD-007,Anker 65W Fast Charger,1,35.0
+10016,2,CUST-0002,2023-07-14 12:00:00,Refunded,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10016,2,CUST-0002,2023-07-14 12:00:00,Refunded,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10017,2,CUST-0002,2023-09-12 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10017,2,CUST-0002,2023-09-12 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10017,2,CUST-0002,2023-09-12 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10017,2,CUST-0002,2023-09-12 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10018,2,CUST-0002,2023-10-30 02:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10018,2,CUST-0002,2023-10-30 02:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10018,2,CUST-0002,2023-10-30 02:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10018,2,CUST-0002,2023-10-30 02:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10019,2,CUST-0002,2023-12-23 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10020,2,CUST-0002,2024-02-21 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10020,2,CUST-0002,2024-02-21 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10021,2,CUST-0002,2024-04-10 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10021,2,CUST-0002,2024-04-10 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10021,2,CUST-0002,2024-04-10 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10022,2,CUST-0002,2024-06-10 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10022,2,CUST-0002,2024-06-10 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10023,3,CUST-0003,2022-06-25 07:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10023,3,CUST-0003,2022-06-25 07:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10023,3,CUST-0003,2022-06-25 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10024,3,CUST-0003,2022-08-27 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10024,3,CUST-0003,2022-08-27 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10024,3,CUST-0003,2022-08-27 08:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10024,3,CUST-0003,2022-08-27 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10025,3,CUST-0003,2022-10-14 10:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10026,3,CUST-0003,2022-11-18 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10026,3,CUST-0003,2022-11-18 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10026,3,CUST-0003,2022-11-18 14:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10027,3,CUST-0003,2023-02-12 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10027,3,CUST-0003,2023-02-12 22:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10027,3,CUST-0003,2023-02-12 22:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10028,3,CUST-0003,2023-04-21 06:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10028,3,CUST-0003,2023-04-21 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10028,3,CUST-0003,2023-04-21 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10029,3,CUST-0003,2023-06-19 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10029,3,CUST-0003,2023-06-19 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10029,3,CUST-0003,2023-06-19 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10029,3,CUST-0003,2023-06-19 13:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10029,3,CUST-0003,2023-06-19 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10030,3,CUST-0003,2023-09-16 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10031,3,CUST-0003,2023-11-29 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10032,3,CUST-0003,2024-02-25 07:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10032,3,CUST-0003,2024-02-25 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10032,3,CUST-0003,2024-02-25 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10032,3,CUST-0003,2024-02-25 07:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10033,3,CUST-0003,2024-04-06 12:00:00,Cancelled,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10033,3,CUST-0003,2024-04-06 12:00:00,Cancelled,PROD-007,Anker 65W Fast Charger,1,35.0
+10033,3,CUST-0003,2024-04-06 12:00:00,Cancelled,PROD-009,1TB External Solid State Drive,2,109.99
+10034,3,CUST-0003,2024-06-25 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10035,4,CUST-0004,2023-03-12 17:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10036,4,CUST-0004,2023-06-12 21:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10036,4,CUST-0004,2023-06-12 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10037,4,CUST-0004,2023-08-22 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10037,4,CUST-0004,2023-08-22 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10038,4,CUST-0004,2023-09-20 03:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10038,4,CUST-0004,2023-09-20 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10038,4,CUST-0004,2023-09-20 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10039,4,CUST-0004,2023-10-18 13:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10039,4,CUST-0004,2023-10-18 13:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10039,4,CUST-0004,2023-10-18 13:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10039,4,CUST-0004,2023-10-18 13:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10039,4,CUST-0004,2023-10-18 13:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10040,4,CUST-0004,2023-11-17 16:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10040,4,CUST-0004,2023-11-17 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10040,4,CUST-0004,2023-11-17 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10040,4,CUST-0004,2023-11-17 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10040,4,CUST-0004,2023-11-17 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10041,4,CUST-0004,2023-12-15 01:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10041,4,CUST-0004,2023-12-15 01:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10042,4,CUST-0004,2024-03-11 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10043,4,CUST-0004,2024-05-31 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10043,4,CUST-0004,2024-05-31 13:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10043,4,CUST-0004,2024-05-31 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10044,4,CUST-0004,2024-06-26 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10045,5,CUST-0005,2023-09-24 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10045,5,CUST-0005,2023-09-24 20:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10045,5,CUST-0005,2023-09-24 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10045,5,CUST-0005,2023-09-24 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10045,5,CUST-0005,2023-09-24 20:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10046,5,CUST-0005,2023-12-06 00:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10046,5,CUST-0005,2023-12-06 00:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10047,5,CUST-0005,2024-01-17 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10047,5,CUST-0005,2024-01-17 06:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10048,5,CUST-0005,2024-03-29 07:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10048,5,CUST-0005,2024-03-29 07:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10048,5,CUST-0005,2024-03-29 07:00:00,Delivered,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10048,5,CUST-0005,2024-03-29 07:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10048,5,CUST-0005,2024-03-29 07:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10049,5,CUST-0005,2024-05-08 10:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10049,5,CUST-0005,2024-05-08 10:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-007,Anker 65W Fast Charger,1,35.0
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-009,1TB External Solid State Drive,2,109.99
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10050,5,CUST-0005,2024-06-16 14:00:00,Delivered,PROD-009,1TB External Solid State Drive,2,109.99
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10051,6,CUST-0006,2022-12-02 20:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10052,6,CUST-0006,2023-01-28 00:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10053,6,CUST-0006,2023-02-17 05:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10053,6,CUST-0006,2023-02-17 05:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10054,6,CUST-0006,2023-04-29 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10054,6,CUST-0006,2023-04-29 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10055,6,CUST-0006,2023-07-30 19:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10055,6,CUST-0006,2023-07-30 19:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10055,6,CUST-0006,2023-07-30 19:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10055,6,CUST-0006,2023-07-30 19:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10056,6,CUST-0006,2023-09-11 05:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10057,6,CUST-0006,2023-11-23 12:00:00,Cancelled,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10057,6,CUST-0006,2023-11-23 12:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,2,24.5
+10057,6,CUST-0006,2023-11-23 12:00:00,Cancelled,PROD-009,1TB External Solid State Drive,3,109.99
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10058,6,CUST-0006,2023-12-29 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10059,6,CUST-0006,2024-02-25 01:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10059,6,CUST-0006,2024-02-25 01:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10059,6,CUST-0006,2024-02-25 01:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10059,6,CUST-0006,2024-02-25 01:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10060,6,CUST-0006,2024-04-26 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10061,6,CUST-0006,2024-06-24 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10062,7,CUST-0007,2023-05-07 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10062,7,CUST-0007,2023-05-07 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10062,7,CUST-0007,2023-05-07 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10062,7,CUST-0007,2023-05-07 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10062,7,CUST-0007,2023-05-07 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10063,7,CUST-0007,2023-06-13 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10064,7,CUST-0007,2023-07-14 06:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10065,7,CUST-0007,2023-10-14 07:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10065,7,CUST-0007,2023-10-14 07:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10065,7,CUST-0007,2023-10-14 07:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10066,7,CUST-0007,2023-12-23 17:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10066,7,CUST-0007,2023-12-23 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10066,7,CUST-0007,2023-12-23 17:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10066,7,CUST-0007,2023-12-23 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10067,7,CUST-0007,2024-03-20 18:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,2,24.5
+10067,7,CUST-0007,2024-03-20 18:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10067,7,CUST-0007,2024-03-20 18:00:00,Cancelled,PROD-009,1TB External Solid State Drive,3,109.99
+10068,7,CUST-0007,2024-04-26 04:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10068,7,CUST-0007,2024-04-26 04:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10068,7,CUST-0007,2024-04-26 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10068,7,CUST-0007,2024-04-26 04:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10069,7,CUST-0007,2024-06-06 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10069,7,CUST-0007,2024-06-06 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10069,7,CUST-0007,2024-06-06 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10069,7,CUST-0007,2024-06-06 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10069,7,CUST-0007,2024-06-06 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10070,8,CUST-0008,2023-08-12 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10070,8,CUST-0008,2023-08-12 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10070,8,CUST-0008,2023-08-12 16:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10070,8,CUST-0008,2023-08-12 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10070,8,CUST-0008,2023-08-12 16:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10071,8,CUST-0008,2023-09-25 18:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10071,8,CUST-0008,2023-09-25 18:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10071,8,CUST-0008,2023-09-25 18:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10071,8,CUST-0008,2023-09-25 18:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10072,8,CUST-0008,2023-10-17 03:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10072,8,CUST-0008,2023-10-17 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10072,8,CUST-0008,2023-10-17 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10073,8,CUST-0008,2023-12-11 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10074,8,CUST-0008,2024-02-04 22:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10074,8,CUST-0008,2024-02-04 22:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10075,8,CUST-0008,2024-03-29 04:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10076,8,CUST-0008,2024-05-15 10:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10076,8,CUST-0008,2024-05-15 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10076,8,CUST-0008,2024-05-15 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10076,8,CUST-0008,2024-05-15 10:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10077,8,CUST-0008,2024-06-27 18:00:00,Cancelled,PROD-004,Noise Cancelling Headphones,3,149.99
+10077,8,CUST-0008,2024-06-27 18:00:00,Cancelled,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10077,8,CUST-0008,2024-06-27 18:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10077,8,CUST-0008,2024-06-27 18:00:00,Cancelled,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10077,8,CUST-0008,2024-06-27 18:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10078,9,CUST-0009,2023-01-24 08:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10078,9,CUST-0009,2023-01-24 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10079,9,CUST-0009,2023-04-11 16:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10079,9,CUST-0009,2023-04-11 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10079,9,CUST-0009,2023-04-11 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10079,9,CUST-0009,2023-04-11 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10079,9,CUST-0009,2023-04-11 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10080,9,CUST-0009,2023-07-06 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10081,9,CUST-0009,2023-10-14 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10082,9,CUST-0009,2024-01-19 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10082,9,CUST-0009,2024-01-19 13:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10082,9,CUST-0009,2024-01-19 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10083,9,CUST-0009,2024-04-19 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10084,9,CUST-0009,2024-06-09 22:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10084,9,CUST-0009,2024-06-09 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10085,10,CUST-0010,2023-03-17 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10085,10,CUST-0010,2023-03-17 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10086,10,CUST-0010,2023-04-28 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10087,10,CUST-0010,2023-07-30 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10088,10,CUST-0010,2023-08-21 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10089,10,CUST-0010,2023-11-23 08:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10090,10,CUST-0010,2023-12-24 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-007,Anker 65W Fast Charger,2,35.0
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-008,Laptop Aluminum Stand,2,24.5
+10091,10,CUST-0010,2024-02-14 13:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10092,10,CUST-0010,2024-04-15 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10092,10,CUST-0010,2024-04-15 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10092,10,CUST-0010,2024-04-15 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10092,10,CUST-0010,2024-04-15 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10093,10,CUST-0010,2024-05-11 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10093,10,CUST-0010,2024-05-11 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10094,10,CUST-0010,2024-06-10 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10094,10,CUST-0010,2024-06-10 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10094,10,CUST-0010,2024-06-10 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10095,11,CUST-0011,2023-09-11 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10095,11,CUST-0011,2023-09-11 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10095,11,CUST-0011,2023-09-11 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10095,11,CUST-0011,2023-09-11 22:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10096,11,CUST-0011,2023-10-11 06:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,3,24.5
+10096,11,CUST-0011,2023-10-11 06:00:00,Cancelled,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10096,11,CUST-0011,2023-10-11 06:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10097,11,CUST-0011,2023-12-22 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10097,11,CUST-0011,2023-12-22 09:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10097,11,CUST-0011,2023-12-22 09:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10097,11,CUST-0011,2023-12-22 09:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10097,11,CUST-0011,2023-12-22 09:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10098,11,CUST-0011,2024-01-12 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10098,11,CUST-0011,2024-01-12 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10098,11,CUST-0011,2024-01-12 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10098,11,CUST-0011,2024-01-12 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10098,11,CUST-0011,2024-01-12 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10099,11,CUST-0011,2024-04-08 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10100,11,CUST-0011,2024-06-23 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10100,11,CUST-0011,2024-06-23 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10101,12,CUST-0012,2023-01-05 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10101,12,CUST-0012,2023-01-05 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10101,12,CUST-0012,2023-01-05 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10102,12,CUST-0012,2023-03-21 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10102,12,CUST-0012,2023-03-21 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10102,12,CUST-0012,2023-03-21 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10102,12,CUST-0012,2023-03-21 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10103,12,CUST-0012,2023-06-24 09:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10104,12,CUST-0012,2023-09-08 15:00:00,Cancelled,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10105,12,CUST-0012,2023-10-18 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10105,12,CUST-0012,2023-10-18 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10105,12,CUST-0012,2023-10-18 17:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10106,12,CUST-0012,2023-12-14 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10107,12,CUST-0012,2024-01-04 10:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10107,12,CUST-0012,2024-01-04 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10108,12,CUST-0012,2024-03-22 15:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10108,12,CUST-0012,2024-03-22 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10108,12,CUST-0012,2024-03-22 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10108,12,CUST-0012,2024-03-22 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10108,12,CUST-0012,2024-03-22 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10109,12,CUST-0012,2024-06-09 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10109,12,CUST-0012,2024-06-09 20:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10110,13,CUST-0013,2022-07-06 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-009,1TB External Solid State Drive,2,109.99
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10111,13,CUST-0013,2022-10-12 05:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10112,13,CUST-0013,2023-01-11 11:00:00,Refunded,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10112,13,CUST-0013,2023-01-11 11:00:00,Refunded,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10112,13,CUST-0013,2023-01-11 11:00:00,Refunded,PROD-008,Laptop Aluminum Stand,1,24.5
+10112,13,CUST-0013,2023-01-11 11:00:00,Refunded,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10113,13,CUST-0013,2023-02-03 21:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10114,13,CUST-0013,2023-03-25 05:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10115,13,CUST-0013,2023-05-31 07:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10116,13,CUST-0013,2023-09-02 14:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10117,13,CUST-0013,2023-11-08 19:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10117,13,CUST-0013,2023-11-08 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10117,13,CUST-0013,2023-11-08 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10117,13,CUST-0013,2023-11-08 19:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10118,13,CUST-0013,2023-12-14 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10119,13,CUST-0013,2024-02-05 12:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-009,1TB External Solid State Drive,1,109.99
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-009,1TB External Solid State Drive,3,109.99
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10120,13,CUST-0013,2024-04-15 13:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10121,13,CUST-0013,2024-06-20 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10122,14,CUST-0014,2022-10-17 01:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10123,14,CUST-0014,2022-12-15 07:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10124,14,CUST-0014,2023-01-27 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10124,14,CUST-0014,2023-01-27 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10125,14,CUST-0014,2023-03-22 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10125,14,CUST-0014,2023-03-22 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10125,14,CUST-0014,2023-03-22 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10126,14,CUST-0014,2023-04-14 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10127,14,CUST-0014,2023-07-22 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10128,14,CUST-0014,2023-10-21 18:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10129,14,CUST-0014,2023-12-09 01:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10129,14,CUST-0014,2023-12-09 01:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10130,14,CUST-0014,2024-02-02 11:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10130,14,CUST-0014,2024-02-02 11:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10130,14,CUST-0014,2024-02-02 11:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10131,14,CUST-0014,2024-04-09 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10131,14,CUST-0014,2024-04-09 13:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10132,14,CUST-0014,2024-06-12 22:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10132,14,CUST-0014,2024-06-12 22:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10133,15,CUST-0015,2023-02-16 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10133,15,CUST-0015,2023-02-16 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10133,15,CUST-0015,2023-02-16 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10134,15,CUST-0015,2023-05-02 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10135,15,CUST-0015,2023-07-11 15:00:00,Cancelled,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10135,15,CUST-0015,2023-07-11 15:00:00,Cancelled,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10136,15,CUST-0015,2023-09-14 17:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10136,15,CUST-0015,2023-09-14 17:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10137,15,CUST-0015,2023-12-08 02:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10137,15,CUST-0015,2023-12-08 02:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10137,15,CUST-0015,2023-12-08 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10138,15,CUST-0015,2024-03-05 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10139,15,CUST-0015,2024-04-10 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10139,15,CUST-0015,2024-04-10 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10140,15,CUST-0015,2024-06-24 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10141,16,CUST-0016,2023-04-06 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10142,16,CUST-0016,2023-07-09 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10142,16,CUST-0016,2023-07-09 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10143,16,CUST-0016,2023-09-27 02:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10143,16,CUST-0016,2023-09-27 02:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10143,16,CUST-0016,2023-09-27 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10144,16,CUST-0016,2024-01-05 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10144,16,CUST-0016,2024-01-05 10:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10145,16,CUST-0016,2024-02-03 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10145,16,CUST-0016,2024-02-03 13:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10145,16,CUST-0016,2024-02-03 13:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10145,16,CUST-0016,2024-02-03 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10146,16,CUST-0016,2024-05-10 16:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10146,16,CUST-0016,2024-05-10 16:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10146,16,CUST-0016,2024-05-10 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10147,16,CUST-0016,2024-06-24 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10147,16,CUST-0016,2024-06-24 19:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10147,16,CUST-0016,2024-06-24 19:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10147,16,CUST-0016,2024-06-24 19:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10148,17,CUST-0017,2022-07-10 07:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10149,17,CUST-0017,2022-08-11 16:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10150,17,CUST-0017,2022-09-08 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10151,17,CUST-0017,2022-12-18 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10152,17,CUST-0017,2023-03-24 05:00:00,Cancelled,PROD-009,1TB External Solid State Drive,1,109.99
+10152,17,CUST-0017,2023-03-24 05:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10152,17,CUST-0017,2023-03-24 05:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,3,24.5
+10153,17,CUST-0017,2023-06-04 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10153,17,CUST-0017,2023-06-04 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10153,17,CUST-0017,2023-06-04 11:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10153,17,CUST-0017,2023-06-04 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10154,17,CUST-0017,2023-07-30 18:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10155,17,CUST-0017,2023-10-05 00:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10155,17,CUST-0017,2023-10-05 00:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10155,17,CUST-0017,2023-10-05 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10156,17,CUST-0017,2024-01-11 03:00:00,Refunded,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10156,17,CUST-0017,2024-01-11 03:00:00,Refunded,PROD-004,Noise Cancelling Headphones,3,149.99
+10157,17,CUST-0017,2024-04-07 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10157,17,CUST-0017,2024-04-07 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10158,17,CUST-0017,2024-06-22 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10159,18,CUST-0018,2023-02-13 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10159,18,CUST-0018,2023-02-13 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10159,18,CUST-0018,2023-02-13 04:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10160,18,CUST-0018,2023-05-04 08:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10160,18,CUST-0018,2023-05-04 08:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10161,18,CUST-0018,2023-06-23 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10162,18,CUST-0018,2023-08-11 22:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10162,18,CUST-0018,2023-08-11 22:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10163,18,CUST-0018,2023-10-07 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10163,18,CUST-0018,2023-10-07 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10163,18,CUST-0018,2023-10-07 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10163,18,CUST-0018,2023-10-07 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10163,18,CUST-0018,2023-10-07 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10164,18,CUST-0018,2023-12-22 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10164,18,CUST-0018,2023-12-22 16:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10164,18,CUST-0018,2023-12-22 16:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10164,18,CUST-0018,2023-12-22 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10164,18,CUST-0018,2023-12-22 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10165,18,CUST-0018,2024-02-26 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10165,18,CUST-0018,2024-02-26 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10165,18,CUST-0018,2024-02-26 20:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10166,18,CUST-0018,2024-03-23 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10166,18,CUST-0018,2024-03-23 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10166,18,CUST-0018,2024-03-23 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10166,18,CUST-0018,2024-03-23 03:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10167,18,CUST-0018,2024-05-03 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10168,18,CUST-0018,2024-06-15 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10168,18,CUST-0018,2024-06-15 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10168,18,CUST-0018,2024-06-15 21:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10169,19,CUST-0019,2022-07-09 09:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10169,19,CUST-0019,2022-07-09 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10170,19,CUST-0019,2022-10-01 18:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10170,19,CUST-0019,2022-10-01 18:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10171,19,CUST-0019,2022-12-30 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10171,19,CUST-0019,2022-12-30 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10172,19,CUST-0019,2023-01-27 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10173,19,CUST-0019,2023-04-24 18:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10173,19,CUST-0019,2023-04-24 18:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10173,19,CUST-0019,2023-04-24 18:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10173,19,CUST-0019,2023-04-24 18:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10174,19,CUST-0019,2023-06-06 20:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10175,19,CUST-0019,2023-09-08 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10175,19,CUST-0019,2023-09-08 03:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10175,19,CUST-0019,2023-09-08 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10176,19,CUST-0019,2023-11-12 07:00:00,Refunded,PROD-007,Anker 65W Fast Charger,1,35.0
+10176,19,CUST-0019,2023-11-12 07:00:00,Refunded,PROD-004,Noise Cancelling Headphones,3,149.99
+10176,19,CUST-0019,2023-11-12 07:00:00,Refunded,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10176,19,CUST-0019,2023-11-12 07:00:00,Refunded,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10176,19,CUST-0019,2023-11-12 07:00:00,Refunded,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10177,19,CUST-0019,2023-12-02 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10178,19,CUST-0019,2024-01-29 00:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10179,19,CUST-0019,2024-03-19 03:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10179,19,CUST-0019,2024-03-19 03:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10179,19,CUST-0019,2024-03-19 03:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10180,19,CUST-0019,2024-06-12 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10181,20,CUST-0020,2022-09-30 22:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10181,20,CUST-0020,2022-09-30 22:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10181,20,CUST-0020,2022-09-30 22:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10181,20,CUST-0020,2022-09-30 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10182,20,CUST-0020,2022-12-06 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10183,20,CUST-0020,2023-01-04 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10183,20,CUST-0020,2023-01-04 14:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10183,20,CUST-0020,2023-01-04 14:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10183,20,CUST-0020,2023-01-04 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10184,20,CUST-0020,2023-02-28 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10184,20,CUST-0020,2023-02-28 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10184,20,CUST-0020,2023-02-28 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10184,20,CUST-0020,2023-02-28 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10184,20,CUST-0020,2023-02-28 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10185,20,CUST-0020,2023-06-06 22:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10186,20,CUST-0020,2023-07-02 04:00:00,Delivered,PROD-007,Anker 65W Fast Charger,2,35.0
+10187,20,CUST-0020,2023-09-04 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10187,20,CUST-0020,2023-09-04 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10187,20,CUST-0020,2023-09-04 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10187,20,CUST-0020,2023-09-04 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10187,20,CUST-0020,2023-09-04 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10188,20,CUST-0020,2023-10-15 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10189,20,CUST-0020,2024-01-21 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10189,20,CUST-0020,2024-01-21 03:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10190,20,CUST-0020,2024-03-20 11:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10191,20,CUST-0020,2024-05-20 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10191,20,CUST-0020,2024-05-20 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10191,20,CUST-0020,2024-05-20 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10191,20,CUST-0020,2024-05-20 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10191,20,CUST-0020,2024-05-20 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10192,20,CUST-0020,2024-06-22 18:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10192,20,CUST-0020,2024-06-22 18:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10192,20,CUST-0020,2024-06-22 18:00:00,Delivered,PROD-008,Laptop Aluminum Stand,2,24.5
+10192,20,CUST-0020,2024-06-22 18:00:00,Delivered,PROD-007,Anker 65W Fast Charger,3,35.0
+10193,21,CUST-0021,2022-10-15 18:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10193,21,CUST-0021,2022-10-15 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10194,21,CUST-0021,2023-01-22 19:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10194,21,CUST-0021,2023-01-22 19:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10194,21,CUST-0021,2023-01-22 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10194,21,CUST-0021,2023-01-22 19:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10195,21,CUST-0021,2023-04-26 02:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10195,21,CUST-0021,2023-04-26 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10195,21,CUST-0021,2023-04-26 02:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10196,21,CUST-0021,2023-06-18 06:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10197,21,CUST-0021,2023-07-13 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10197,21,CUST-0021,2023-07-13 16:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10197,21,CUST-0021,2023-07-13 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10198,21,CUST-0021,2023-08-05 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10198,21,CUST-0021,2023-08-05 18:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10198,21,CUST-0021,2023-08-05 18:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10199,21,CUST-0021,2023-11-05 19:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10200,21,CUST-0021,2024-02-11 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10200,21,CUST-0021,2024-02-11 01:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10201,21,CUST-0021,2024-03-23 11:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10201,21,CUST-0021,2024-03-23 11:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10201,21,CUST-0021,2024-03-23 11:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10201,21,CUST-0021,2024-03-23 11:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10202,21,CUST-0021,2024-06-25 14:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10202,21,CUST-0021,2024-06-25 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10203,22,CUST-0022,2023-04-29 01:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10203,22,CUST-0022,2023-04-29 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10203,22,CUST-0022,2023-04-29 01:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10204,22,CUST-0022,2023-07-04 10:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10204,22,CUST-0022,2023-07-04 10:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10205,22,CUST-0022,2023-10-03 14:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10206,22,CUST-0022,2023-10-30 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10207,22,CUST-0022,2023-11-24 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10208,22,CUST-0022,2024-02-03 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10209,22,CUST-0022,2024-03-27 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10210,22,CUST-0022,2024-06-10 22:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10210,22,CUST-0022,2024-06-10 22:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10211,23,CUST-0023,2022-07-07 09:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10211,23,CUST-0023,2022-07-07 09:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10212,23,CUST-0023,2022-08-02 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10213,23,CUST-0023,2022-11-03 23:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10214,23,CUST-0023,2022-12-27 09:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10215,23,CUST-0023,2023-04-02 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10216,23,CUST-0023,2023-05-31 18:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10216,23,CUST-0023,2023-05-31 18:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10216,23,CUST-0023,2023-05-31 18:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10216,23,CUST-0023,2023-05-31 18:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10216,23,CUST-0023,2023-05-31 18:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10217,23,CUST-0023,2023-08-13 04:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10217,23,CUST-0023,2023-08-13 04:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10217,23,CUST-0023,2023-08-13 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10217,23,CUST-0023,2023-08-13 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10218,23,CUST-0023,2023-10-14 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10218,23,CUST-0023,2023-10-14 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10218,23,CUST-0023,2023-10-14 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10218,23,CUST-0023,2023-10-14 06:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10218,23,CUST-0023,2023-10-14 06:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10219,23,CUST-0023,2023-11-05 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10219,23,CUST-0023,2023-11-05 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10219,23,CUST-0023,2023-11-05 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10219,23,CUST-0023,2023-11-05 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10219,23,CUST-0023,2023-11-05 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10220,23,CUST-0023,2024-01-02 20:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10220,23,CUST-0023,2024-01-02 20:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10220,23,CUST-0023,2024-01-02 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10220,23,CUST-0023,2024-01-02 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10221,23,CUST-0023,2024-03-25 06:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10221,23,CUST-0023,2024-03-25 06:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10221,23,CUST-0023,2024-03-25 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10221,23,CUST-0023,2024-03-25 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10221,23,CUST-0023,2024-03-25 06:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10222,23,CUST-0023,2024-06-18 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10222,23,CUST-0023,2024-06-18 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10222,23,CUST-0023,2024-06-18 15:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10223,24,CUST-0024,2022-12-23 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10223,24,CUST-0024,2022-12-23 22:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10223,24,CUST-0024,2022-12-23 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10223,24,CUST-0024,2022-12-23 22:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-007,Anker 65W Fast Charger,2,35.0
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-004,Noise Cancelling Headphones,3,149.99
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-004,Noise Cancelling Headphones,1,149.99
+10224,24,CUST-0024,2023-01-16 23:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10225,24,CUST-0024,2023-03-01 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10225,24,CUST-0024,2023-03-01 04:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10225,24,CUST-0024,2023-03-01 04:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10225,24,CUST-0024,2023-03-01 04:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10226,24,CUST-0024,2023-05-10 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10226,24,CUST-0024,2023-05-10 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10226,24,CUST-0024,2023-05-10 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10227,24,CUST-0024,2023-06-21 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10227,24,CUST-0024,2023-06-21 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10227,24,CUST-0024,2023-06-21 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10227,24,CUST-0024,2023-06-21 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10227,24,CUST-0024,2023-06-21 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10228,24,CUST-0024,2023-08-02 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10229,24,CUST-0024,2023-10-29 21:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10229,24,CUST-0024,2023-10-29 21:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10229,24,CUST-0024,2023-10-29 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10230,24,CUST-0024,2024-01-31 01:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10230,24,CUST-0024,2024-01-31 01:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10230,24,CUST-0024,2024-01-31 01:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10230,24,CUST-0024,2024-01-31 01:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10231,24,CUST-0024,2024-02-27 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10232,24,CUST-0024,2024-04-28 08:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10232,24,CUST-0024,2024-04-28 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10232,24,CUST-0024,2024-04-28 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10232,24,CUST-0024,2024-04-28 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10233,24,CUST-0024,2024-06-12 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10234,25,CUST-0025,2022-09-23 23:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10234,25,CUST-0025,2022-09-23 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10234,25,CUST-0025,2022-09-23 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10234,25,CUST-0025,2022-09-23 23:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10235,25,CUST-0025,2022-12-07 08:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10235,25,CUST-0025,2022-12-07 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10235,25,CUST-0025,2022-12-07 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10235,25,CUST-0025,2022-12-07 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10235,25,CUST-0025,2022-12-07 08:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10236,25,CUST-0025,2023-02-24 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10237,25,CUST-0025,2023-03-18 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10237,25,CUST-0025,2023-03-18 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10237,25,CUST-0025,2023-03-18 22:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10238,25,CUST-0025,2023-05-05 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10238,25,CUST-0025,2023-05-05 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10238,25,CUST-0025,2023-05-05 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,3,320.0
+10238,25,CUST-0025,2023-05-05 23:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10239,25,CUST-0025,2023-08-01 02:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10240,25,CUST-0025,2023-10-28 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10240,25,CUST-0025,2023-10-28 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10240,25,CUST-0025,2023-10-28 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10240,25,CUST-0025,2023-10-28 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10240,25,CUST-0025,2023-10-28 09:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10241,25,CUST-0025,2023-12-02 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10242,25,CUST-0025,2024-01-08 18:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10242,25,CUST-0025,2024-01-08 18:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10242,25,CUST-0025,2024-01-08 18:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10242,25,CUST-0025,2024-01-08 18:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10243,25,CUST-0025,2024-02-08 03:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10243,25,CUST-0025,2024-02-08 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10244,25,CUST-0025,2024-04-16 10:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10244,25,CUST-0025,2024-04-16 10:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10244,25,CUST-0025,2024-04-16 10:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10245,25,CUST-0025,2024-06-23 18:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10245,25,CUST-0025,2024-06-23 18:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,3,289.0
+10245,25,CUST-0025,2024-06-23 18:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10245,25,CUST-0025,2024-06-23 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10245,25,CUST-0025,2024-06-23 18:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10246,26,CUST-0026,2023-07-03 15:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10246,26,CUST-0026,2023-07-03 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10246,26,CUST-0026,2023-07-03 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10247,26,CUST-0026,2023-09-23 23:00:00,Delivered,PROD-007,Anker 65W Fast Charger,3,35.0
+10248,26,CUST-0026,2023-11-26 04:00:00,Cancelled,PROD-007,Anker 65W Fast Charger,1,35.0
+10249,26,CUST-0026,2024-02-17 13:00:00,Delivered,PROD-008,Laptop Aluminum Stand,3,24.5
+10249,26,CUST-0026,2024-02-17 13:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10249,26,CUST-0026,2024-02-17 13:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10250,26,CUST-0026,2024-05-19 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10251,27,CUST-0027,2023-04-14 07:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10252,27,CUST-0027,2023-07-10 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10253,27,CUST-0027,2023-07-31 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10254,27,CUST-0027,2023-10-29 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10255,27,CUST-0027,2023-11-19 05:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10256,27,CUST-0027,2024-02-09 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10256,27,CUST-0027,2024-02-09 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10256,27,CUST-0027,2024-02-09 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10256,27,CUST-0027,2024-02-09 06:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10257,27,CUST-0027,2024-05-17 14:00:00,Refunded,PROD-008,Laptop Aluminum Stand,1,24.5
+10258,28,CUST-0028,2023-12-09 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10259,28,CUST-0028,2024-01-19 08:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10259,28,CUST-0028,2024-01-19 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10260,28,CUST-0028,2024-02-15 09:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10260,28,CUST-0028,2024-02-15 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10260,28,CUST-0028,2024-02-15 09:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10261,28,CUST-0028,2024-05-15 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10261,28,CUST-0028,2024-05-15 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10262,29,CUST-0029,2023-07-10 08:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10262,29,CUST-0029,2023-07-10 08:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10262,29,CUST-0029,2023-07-10 08:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10262,29,CUST-0029,2023-07-10 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10262,29,CUST-0029,2023-07-10 08:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10263,29,CUST-0029,2023-10-10 12:00:00,Cancelled,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10264,29,CUST-0029,2023-12-07 15:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10265,29,CUST-0029,2024-02-15 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10266,29,CUST-0029,2024-05-20 20:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10267,30,CUST-0030,2023-06-03 11:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10268,30,CUST-0030,2023-09-10 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10268,30,CUST-0030,2023-09-10 16:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10269,30,CUST-0030,2023-11-17 18:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10269,30,CUST-0030,2023-11-17 18:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10269,30,CUST-0030,2023-11-17 18:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10270,30,CUST-0030,2023-12-31 04:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10270,30,CUST-0030,2023-12-31 04:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10270,30,CUST-0030,2023-12-31 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10271,30,CUST-0030,2024-03-08 11:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10271,30,CUST-0030,2024-03-08 11:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10271,30,CUST-0030,2024-03-08 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10272,30,CUST-0030,2024-05-12 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10273,31,CUST-0031,2023-07-05 01:00:00,Delivered,PROD-009,1TB External Solid State Drive,2,109.99
+10274,31,CUST-0031,2023-09-09 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10274,31,CUST-0031,2023-09-09 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10275,31,CUST-0031,2023-11-29 08:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10276,31,CUST-0031,2024-02-10 13:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10276,31,CUST-0031,2024-02-10 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10277,31,CUST-0031,2024-04-25 18:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10277,31,CUST-0031,2024-04-25 18:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10277,31,CUST-0031,2024-04-25 18:00:00,Cancelled,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10278,31,CUST-0031,2024-05-23 21:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10278,31,CUST-0031,2024-05-23 21:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10278,31,CUST-0031,2024-05-23 21:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10279,32,CUST-0032,2023-09-24 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10279,32,CUST-0032,2023-09-24 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10280,32,CUST-0032,2023-12-22 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10281,32,CUST-0032,2024-02-06 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10281,32,CUST-0032,2024-02-06 03:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10281,32,CUST-0032,2024-02-06 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10281,32,CUST-0032,2024-02-06 03:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10282,32,CUST-0032,2024-03-11 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10283,32,CUST-0032,2024-05-20 19:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10283,32,CUST-0032,2024-05-20 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10284,33,CUST-0033,2023-07-03 22:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10285,33,CUST-0033,2023-09-13 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10286,33,CUST-0033,2023-10-08 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10287,33,CUST-0033,2023-11-19 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10288,33,CUST-0033,2024-01-09 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10288,33,CUST-0033,2024-01-09 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10288,33,CUST-0033,2024-01-09 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10288,33,CUST-0033,2024-01-09 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10289,33,CUST-0033,2024-02-08 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10290,33,CUST-0033,2024-05-06 18:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10291,34,CUST-0034,2023-06-21 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10291,34,CUST-0034,2023-06-21 04:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10292,34,CUST-0034,2023-08-01 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10292,34,CUST-0034,2023-08-01 08:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10293,34,CUST-0034,2023-10-03 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10293,34,CUST-0034,2023-10-03 10:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10293,34,CUST-0034,2023-10-03 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10294,34,CUST-0034,2023-11-06 11:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10294,34,CUST-0034,2023-11-06 11:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10295,34,CUST-0034,2024-01-03 12:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10296,34,CUST-0034,2024-03-03 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10296,34,CUST-0034,2024-03-03 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10297,34,CUST-0034,2024-05-18 22:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10297,34,CUST-0034,2024-05-18 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10298,35,CUST-0035,2023-04-09 09:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10298,35,CUST-0035,2023-04-09 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10299,35,CUST-0035,2023-05-14 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10300,35,CUST-0035,2023-06-20 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10300,35,CUST-0035,2023-06-20 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10301,35,CUST-0035,2023-09-23 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10302,35,CUST-0035,2023-11-21 07:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10303,35,CUST-0035,2024-02-28 10:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10304,35,CUST-0035,2024-05-03 18:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10305,36,CUST-0036,2023-06-28 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10305,36,CUST-0036,2023-06-28 10:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10305,36,CUST-0036,2023-06-28 10:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10305,36,CUST-0036,2023-06-28 10:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10305,36,CUST-0036,2023-06-28 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10306,36,CUST-0036,2023-08-22 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10306,36,CUST-0036,2023-08-22 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10306,36,CUST-0036,2023-08-22 14:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10306,36,CUST-0036,2023-08-22 14:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10307,36,CUST-0036,2023-10-18 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10308,36,CUST-0036,2023-11-10 19:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10308,36,CUST-0036,2023-11-10 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10308,36,CUST-0036,2023-11-10 19:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10308,36,CUST-0036,2023-11-10 19:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10309,36,CUST-0036,2023-12-11 05:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10309,36,CUST-0036,2023-12-11 05:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10310,36,CUST-0036,2024-03-02 08:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10310,36,CUST-0036,2024-03-02 08:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10311,36,CUST-0036,2024-05-14 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10311,36,CUST-0036,2024-05-14 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10311,36,CUST-0036,2024-05-14 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10312,37,CUST-0037,2023-09-28 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10313,37,CUST-0037,2023-11-19 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10314,37,CUST-0037,2023-12-25 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10314,37,CUST-0037,2023-12-25 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10314,37,CUST-0037,2023-12-25 05:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10314,37,CUST-0037,2023-12-25 05:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10314,37,CUST-0037,2023-12-25 05:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10315,37,CUST-0037,2024-01-21 10:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10316,37,CUST-0037,2024-02-27 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10316,37,CUST-0037,2024-02-27 17:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10317,37,CUST-0037,2024-05-22 19:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10317,37,CUST-0037,2024-05-22 19:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10317,37,CUST-0037,2024-05-22 19:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10318,38,CUST-0038,2023-08-18 10:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10318,38,CUST-0038,2023-08-18 10:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10319,38,CUST-0038,2023-11-08 16:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10319,38,CUST-0038,2023-11-08 16:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10320,38,CUST-0038,2023-12-15 02:00:00,Refunded,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10321,38,CUST-0038,2024-03-14 12:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10322,38,CUST-0038,2024-05-09 18:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10323,39,CUST-0039,2023-12-10 07:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10323,39,CUST-0039,2023-12-10 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10323,39,CUST-0039,2023-12-10 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10324,39,CUST-0039,2024-02-18 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10325,39,CUST-0039,2024-03-30 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10325,39,CUST-0039,2024-03-30 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10326,39,CUST-0039,2024-04-29 19:00:00,Refunded,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10327,40,CUST-0040,2023-10-15 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10327,40,CUST-0040,2023-10-15 09:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10328,40,CUST-0040,2023-11-12 18:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10328,40,CUST-0040,2023-11-12 18:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10329,40,CUST-0040,2023-12-19 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10330,40,CUST-0040,2024-01-26 04:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10330,40,CUST-0040,2024-01-26 04:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10330,40,CUST-0040,2024-01-26 04:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10331,40,CUST-0040,2024-04-02 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10332,40,CUST-0040,2024-05-05 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10333,40,CUST-0040,2024-06-05 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10334,41,CUST-0041,2023-08-02 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10335,41,CUST-0041,2023-09-05 18:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10335,41,CUST-0041,2023-09-05 18:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10335,41,CUST-0041,2023-09-05 18:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10335,41,CUST-0041,2023-09-05 18:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10336,41,CUST-0041,2023-11-28 01:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10336,41,CUST-0041,2023-11-28 01:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10336,41,CUST-0041,2023-11-28 01:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10336,41,CUST-0041,2023-11-28 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10336,41,CUST-0041,2023-11-28 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10337,41,CUST-0041,2023-12-24 05:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10337,41,CUST-0041,2023-12-24 05:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10337,41,CUST-0041,2023-12-24 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10337,41,CUST-0041,2023-12-24 05:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10337,41,CUST-0041,2023-12-24 05:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10338,41,CUST-0041,2024-03-03 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10339,41,CUST-0041,2024-05-27 14:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10339,41,CUST-0041,2024-05-27 14:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10339,41,CUST-0041,2024-05-27 14:00:00,Cancelled,PROD-007,Anker 65W Fast Charger,2,35.0
+10339,41,CUST-0041,2024-05-27 14:00:00,Cancelled,PROD-009,1TB External Solid State Drive,3,109.99
+10339,41,CUST-0041,2024-05-27 14:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,2,24.5
+10340,42,CUST-0042,2023-08-02 06:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10341,42,CUST-0042,2023-09-30 09:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10342,42,CUST-0042,2024-01-05 10:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10343,42,CUST-0042,2024-03-23 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10343,42,CUST-0042,2024-03-23 20:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10344,42,CUST-0042,2024-06-06 22:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10345,43,CUST-0043,2023-07-01 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10345,43,CUST-0043,2023-07-01 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10345,43,CUST-0043,2023-07-01 10:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10346,43,CUST-0043,2023-07-28 18:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10346,43,CUST-0043,2023-07-28 18:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10347,43,CUST-0043,2023-10-22 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10347,43,CUST-0043,2023-10-22 00:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10347,43,CUST-0043,2023-10-22 00:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10348,43,CUST-0043,2024-01-13 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10348,43,CUST-0043,2024-01-13 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10349,43,CUST-0043,2024-04-15 10:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10349,43,CUST-0043,2024-04-15 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10350,43,CUST-0043,2024-05-13 15:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10350,43,CUST-0043,2024-05-13 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10351,44,CUST-0044,2023-06-20 03:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10351,44,CUST-0044,2023-06-20 03:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10351,44,CUST-0044,2023-06-20 03:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10352,44,CUST-0044,2023-08-17 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10353,44,CUST-0044,2023-10-13 23:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10353,44,CUST-0044,2023-10-13 23:00:00,Delivered,PROD-007,Anker 65W Fast Charger,3,35.0
+10354,44,CUST-0044,2023-12-20 03:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10354,44,CUST-0044,2023-12-20 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10354,44,CUST-0044,2023-12-20 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10355,44,CUST-0044,2024-03-07 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10355,44,CUST-0044,2024-03-07 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10356,44,CUST-0044,2024-04-07 13:00:00,Cancelled,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10357,44,CUST-0044,2024-06-05 19:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10358,45,CUST-0045,2023-07-05 00:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10358,45,CUST-0045,2023-07-05 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10359,45,CUST-0045,2023-09-18 03:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10359,45,CUST-0045,2023-09-18 03:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10360,45,CUST-0045,2023-12-19 04:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10361,45,CUST-0045,2024-01-17 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10362,45,CUST-0045,2024-02-23 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10362,45,CUST-0045,2024-02-23 21:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10362,45,CUST-0045,2024-02-23 21:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10362,45,CUST-0045,2024-02-23 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10362,45,CUST-0045,2024-02-23 21:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10363,45,CUST-0045,2024-03-27 06:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10363,45,CUST-0045,2024-03-27 06:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10364,45,CUST-0045,2024-04-26 16:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10365,46,CUST-0046,2023-04-11 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10365,46,CUST-0046,2023-04-11 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10366,46,CUST-0046,2023-06-29 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10367,46,CUST-0046,2023-08-19 14:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10367,46,CUST-0046,2023-08-19 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10368,46,CUST-0046,2023-11-18 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10369,46,CUST-0046,2024-01-29 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10370,46,CUST-0046,2024-03-11 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10370,46,CUST-0046,2024-03-11 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10371,46,CUST-0046,2024-05-08 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10371,46,CUST-0046,2024-05-08 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10371,46,CUST-0046,2024-05-08 13:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10372,47,CUST-0047,2023-08-04 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10372,47,CUST-0047,2023-08-04 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10372,47,CUST-0047,2023-08-04 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10373,47,CUST-0047,2023-10-01 01:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10374,47,CUST-0047,2024-01-07 05:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10374,47,CUST-0047,2024-01-07 05:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10375,47,CUST-0047,2024-04-14 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10375,47,CUST-0047,2024-04-14 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10376,47,CUST-0047,2024-05-23 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10376,47,CUST-0047,2024-05-23 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10376,47,CUST-0047,2024-05-23 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10377,48,CUST-0048,2023-06-05 09:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10377,48,CUST-0048,2023-06-05 09:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10377,48,CUST-0048,2023-06-05 09:00:00,Delivered,PROD-004,Noise Cancelling Headphones,1,149.99
+10377,48,CUST-0048,2023-06-05 09:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10377,48,CUST-0048,2023-06-05 09:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10378,48,CUST-0048,2023-08-13 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10378,48,CUST-0048,2023-08-13 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10379,48,CUST-0048,2023-10-01 01:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10379,48,CUST-0048,2023-10-01 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10379,48,CUST-0048,2023-10-01 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10380,48,CUST-0048,2023-12-28 02:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10380,48,CUST-0048,2023-12-28 02:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10380,48,CUST-0048,2023-12-28 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10381,48,CUST-0048,2024-02-16 07:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10381,48,CUST-0048,2024-02-16 07:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10382,48,CUST-0048,2024-03-19 11:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10382,48,CUST-0048,2024-03-19 11:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10382,48,CUST-0048,2024-03-19 11:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10382,48,CUST-0048,2024-03-19 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10382,48,CUST-0048,2024-03-19 11:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10383,48,CUST-0048,2024-05-07 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10383,48,CUST-0048,2024-05-07 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10384,49,CUST-0049,2023-02-18 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10384,49,CUST-0049,2023-02-18 09:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10384,49,CUST-0049,2023-02-18 09:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10384,49,CUST-0049,2023-02-18 09:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10384,49,CUST-0049,2023-02-18 09:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10385,49,CUST-0049,2023-04-16 12:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10386,49,CUST-0049,2023-06-23 17:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10387,49,CUST-0049,2023-09-26 20:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10388,49,CUST-0049,2023-12-01 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10388,49,CUST-0049,2023-12-01 00:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10389,49,CUST-0049,2024-03-01 10:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10390,49,CUST-0049,2024-04-30 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10391,50,CUST-0050,2023-12-08 10:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10392,50,CUST-0050,2024-02-19 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10392,50,CUST-0050,2024-02-19 13:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10392,50,CUST-0050,2024-02-19 13:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10393,50,CUST-0050,2024-04-28 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10393,50,CUST-0050,2024-04-28 21:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10393,50,CUST-0050,2024-04-28 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10394,50,CUST-0050,2024-05-18 22:00:00,Cancelled,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10395,51,CUST-0051,2023-05-05 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10395,51,CUST-0051,2023-05-05 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10395,51,CUST-0051,2023-05-05 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10396,51,CUST-0051,2023-07-19 09:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10397,51,CUST-0051,2023-08-29 19:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10398,51,CUST-0051,2023-09-22 02:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10398,51,CUST-0051,2023-09-22 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10398,51,CUST-0051,2023-09-22 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10398,51,CUST-0051,2023-09-22 02:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10399,51,CUST-0051,2023-12-29 10:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10399,51,CUST-0051,2023-12-29 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10400,51,CUST-0051,2024-03-01 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10400,51,CUST-0051,2024-03-01 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10401,51,CUST-0051,2024-05-30 22:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10401,51,CUST-0051,2024-05-30 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10401,51,CUST-0051,2024-05-30 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10402,52,CUST-0052,2023-09-04 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10402,52,CUST-0052,2023-09-04 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10402,52,CUST-0052,2023-09-04 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10403,52,CUST-0052,2023-12-03 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10404,52,CUST-0052,2024-03-07 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10404,52,CUST-0052,2024-03-07 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10404,52,CUST-0052,2024-03-07 11:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10405,52,CUST-0052,2024-06-04 18:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10405,52,CUST-0052,2024-06-04 18:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10406,53,CUST-0053,2023-10-14 00:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10406,53,CUST-0053,2023-10-14 00:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10406,53,CUST-0053,2023-10-14 00:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10407,53,CUST-0053,2023-12-13 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10408,53,CUST-0053,2024-03-18 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10408,53,CUST-0053,2024-03-18 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10409,53,CUST-0053,2024-05-02 10:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10409,53,CUST-0053,2024-05-02 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10410,53,CUST-0053,2024-06-01 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10411,54,CUST-0054,2023-07-22 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10411,54,CUST-0054,2023-07-22 03:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10411,54,CUST-0054,2023-07-22 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10411,54,CUST-0054,2023-07-22 03:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10412,54,CUST-0054,2023-08-29 13:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10412,54,CUST-0054,2023-08-29 13:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10413,54,CUST-0054,2023-10-23 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10413,54,CUST-0054,2023-10-23 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10413,54,CUST-0054,2023-10-23 20:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10414,54,CUST-0054,2023-11-16 23:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10414,54,CUST-0054,2023-11-16 23:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10414,54,CUST-0054,2023-11-16 23:00:00,Cancelled,PROD-004,Noise Cancelling Headphones,3,149.99
+10415,54,CUST-0054,2024-02-22 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10415,54,CUST-0054,2024-02-22 07:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10415,54,CUST-0054,2024-02-22 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10416,54,CUST-0054,2024-05-14 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10417,55,CUST-0055,2023-11-21 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10417,55,CUST-0055,2023-11-21 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10417,55,CUST-0055,2023-11-21 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10418,55,CUST-0055,2023-12-15 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10418,55,CUST-0055,2023-12-15 02:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10418,55,CUST-0055,2023-12-15 02:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10418,55,CUST-0055,2023-12-15 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10419,55,CUST-0055,2024-03-11 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10420,55,CUST-0055,2024-05-21 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10420,55,CUST-0055,2024-05-21 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10421,56,CUST-0056,2024-01-04 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10421,56,CUST-0056,2024-01-04 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10422,56,CUST-0056,2024-03-29 13:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10422,56,CUST-0056,2024-03-29 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10422,56,CUST-0056,2024-03-29 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10423,56,CUST-0056,2024-05-22 20:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10423,56,CUST-0056,2024-05-22 20:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10424,57,CUST-0057,2024-01-11 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10424,57,CUST-0057,2024-01-11 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10425,57,CUST-0057,2024-04-14 17:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10425,57,CUST-0057,2024-04-14 17:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10425,57,CUST-0057,2024-04-14 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10425,57,CUST-0057,2024-04-14 17:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10425,57,CUST-0057,2024-04-14 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10426,58,CUST-0058,2024-04-29 18:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10427,59,CUST-0059,2023-12-16 08:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10427,59,CUST-0059,2023-12-16 08:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10428,59,CUST-0059,2024-02-11 10:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10428,59,CUST-0059,2024-02-11 10:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10429,59,CUST-0059,2024-05-12 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-009,1TB External Solid State Drive,1,109.99
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10430,60,CUST-0060,2023-11-21 11:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10431,60,CUST-0060,2024-02-23 21:00:00,Refunded,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10431,60,CUST-0060,2024-02-23 21:00:00,Refunded,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10431,60,CUST-0060,2024-02-23 21:00:00,Refunded,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10431,60,CUST-0060,2024-02-23 21:00:00,Refunded,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10432,60,CUST-0060,2024-05-13 22:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10432,60,CUST-0060,2024-05-13 22:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10432,60,CUST-0060,2024-05-13 22:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10433,61,CUST-0061,2024-02-09 05:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10433,61,CUST-0061,2024-02-09 05:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10433,61,CUST-0061,2024-02-09 05:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10433,61,CUST-0061,2024-02-09 05:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10434,61,CUST-0061,2024-04-24 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10435,61,CUST-0061,2024-05-30 22:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10435,61,CUST-0061,2024-05-30 22:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10436,62,CUST-0062,2024-02-19 09:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10437,62,CUST-0062,2024-04-16 17:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10437,62,CUST-0062,2024-04-16 17:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10437,62,CUST-0062,2024-04-16 17:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10438,62,CUST-0062,2024-05-11 22:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10438,62,CUST-0062,2024-05-11 22:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10438,62,CUST-0062,2024-05-11 22:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10439,63,CUST-0063,2024-03-02 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10439,63,CUST-0063,2024-03-02 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10439,63,CUST-0063,2024-03-02 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10439,63,CUST-0063,2024-03-02 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10439,63,CUST-0063,2024-03-02 12:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10440,63,CUST-0063,2024-05-07 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10441,63,CUST-0063,2024-06-17 15:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10441,63,CUST-0063,2024-06-17 15:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10441,63,CUST-0063,2024-06-17 15:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10442,64,CUST-0064,2024-01-11 08:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10443,64,CUST-0064,2024-04-03 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10443,64,CUST-0064,2024-04-03 12:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10443,64,CUST-0064,2024-04-03 12:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10444,64,CUST-0064,2024-04-28 21:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10444,64,CUST-0064,2024-04-28 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10445,65,CUST-0065,2024-04-04 14:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10446,65,CUST-0065,2024-05-15 20:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10447,65,CUST-0065,2024-06-05 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,1,289.0
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,2,320.0
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10448,66,CUST-0066,2024-02-18 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10449,66,CUST-0066,2024-05-01 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10449,66,CUST-0066,2024-05-01 16:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10450,67,CUST-0067,2024-05-17 18:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10450,67,CUST-0067,2024-05-17 18:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10450,67,CUST-0067,2024-05-17 18:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10451,68,CUST-0068,2024-03-11 15:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10451,68,CUST-0068,2024-03-11 15:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10452,68,CUST-0068,2024-05-19 18:00:00,Completed,PROD-003,Ultra HD 27-inch Monitor,2,289.0
+10452,68,CUST-0068,2024-05-19 18:00:00,Completed,PROD-012,Ergonomic Mesh Office Chair,1,320.0
+10453,69,CUST-0069,2024-04-18 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10453,69,CUST-0069,2024-04-18 20:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10454,70,CUST-0070,2024-06-09 16:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10455,71,CUST-0071,2024-05-16 14:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10456,71,CUST-0071,2024-06-07 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10457,72,CUST-0072,2024-03-09 07:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10457,72,CUST-0072,2024-03-09 07:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10457,72,CUST-0072,2024-03-09 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10458,72,CUST-0072,2024-05-26 13:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10459,73,CUST-0073,2024-05-03 12:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10460,73,CUST-0073,2024-06-20 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10461,74,CUST-0074,2024-06-17 21:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10461,74,CUST-0074,2024-06-17 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10462,75,CUST-0075,2024-06-15 17:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10463,76,CUST-0076,2024-03-18 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10463,76,CUST-0076,2024-03-18 21:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10463,76,CUST-0076,2024-03-18 21:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10463,76,CUST-0076,2024-03-18 21:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10464,76,CUST-0076,2024-06-21 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10464,76,CUST-0076,2024-06-21 23:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10465,77,CUST-0077,2024-05-21 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10466,78,CUST-0078,2024-02-19 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10467,78,CUST-0078,2024-05-26 17:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10468,79,CUST-0079,2024-02-23 08:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10469,79,CUST-0079,2024-05-23 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10469,79,CUST-0079,2024-05-23 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10469,79,CUST-0079,2024-05-23 12:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10469,79,CUST-0079,2024-05-23 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10470,80,CUST-0080,2024-03-31 05:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10471,80,CUST-0080,2024-06-20 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10471,80,CUST-0080,2024-06-20 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10471,80,CUST-0080,2024-06-20 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10472,81,CUST-0081,2024-06-26 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10473,82,CUST-0082,2024-06-09 21:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10473,82,CUST-0082,2024-06-09 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10474,83,CUST-0083,2024-02-29 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10475,83,CUST-0083,2024-05-30 14:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10476,84,CUST-0084,2024-04-12 11:00:00,Cancelled,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10476,84,CUST-0084,2024-04-12 11:00:00,Cancelled,PROD-009,1TB External Solid State Drive,1,109.99
+10476,84,CUST-0084,2024-04-12 11:00:00,Cancelled,PROD-004,Noise Cancelling Headphones,3,149.99
+10476,84,CUST-0084,2024-04-12 11:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10476,84,CUST-0084,2024-04-12 11:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10477,84,CUST-0084,2024-06-24 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10477,84,CUST-0084,2024-06-24 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10478,85,CUST-0085,2024-06-09 21:00:00,Refunded,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10478,85,CUST-0085,2024-06-09 21:00:00,Refunded,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10478,85,CUST-0085,2024-06-09 21:00:00,Refunded,PROD-009,1TB External Solid State Drive,2,109.99
+10478,85,CUST-0085,2024-06-09 21:00:00,Refunded,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10478,85,CUST-0085,2024-06-09 21:00:00,Refunded,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10479,86,CUST-0086,2024-05-19 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10480,86,CUST-0086,2024-06-27 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10481,87,CUST-0087,2024-03-28 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10481,87,CUST-0087,2024-03-28 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10481,87,CUST-0087,2024-03-28 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10482,87,CUST-0087,2024-05-27 22:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10483,88,CUST-0088,2024-04-20 09:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10484,88,CUST-0088,2024-06-06 19:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10485,89,CUST-0089,2024-06-12 13:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10486,90,CUST-0090,2024-03-17 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10486,90,CUST-0090,2024-03-17 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10486,90,CUST-0090,2024-03-17 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10487,90,CUST-0090,2024-06-11 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10487,90,CUST-0090,2024-06-11 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10487,90,CUST-0090,2024-06-11 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10488,91,CUST-0091,2024-06-14 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10489,92,CUST-0092,2024-04-06 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10490,92,CUST-0092,2024-06-23 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10490,92,CUST-0092,2024-06-23 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10491,93,CUST-0093,2024-03-24 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10492,93,CUST-0093,2024-06-03 13:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10493,94,CUST-0094,2024-05-21 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10494,95,CUST-0095,2024-06-09 14:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10494,95,CUST-0095,2024-06-09 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10494,95,CUST-0095,2024-06-09 14:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10495,96,CUST-0096,2023-05-31 18:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10496,96,CUST-0096,2023-06-22 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10496,96,CUST-0096,2023-06-22 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10497,96,CUST-0096,2023-08-19 09:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10498,96,CUST-0096,2023-10-15 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10498,96,CUST-0096,2023-10-15 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10499,96,CUST-0096,2023-12-24 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10499,96,CUST-0096,2023-12-24 21:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10500,97,CUST-0097,2023-02-21 09:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10500,97,CUST-0097,2023-02-21 09:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10500,97,CUST-0097,2023-02-21 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10500,97,CUST-0097,2023-02-21 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10501,97,CUST-0097,2023-04-14 11:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10501,97,CUST-0097,2023-04-14 11:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10501,97,CUST-0097,2023-04-14 11:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10502,97,CUST-0097,2023-06-10 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10502,97,CUST-0097,2023-06-10 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10502,97,CUST-0097,2023-06-10 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10502,97,CUST-0097,2023-06-10 13:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10503,97,CUST-0097,2023-09-08 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10503,97,CUST-0097,2023-09-08 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10503,97,CUST-0097,2023-09-08 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10504,97,CUST-0097,2023-12-07 23:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10505,98,CUST-0098,2023-03-25 02:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10505,98,CUST-0098,2023-03-25 02:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10505,98,CUST-0098,2023-03-25 02:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10506,98,CUST-0098,2023-06-04 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10507,98,CUST-0098,2023-09-06 22:00:00,Delivered,PROD-007,Anker 65W Fast Charger,3,35.0
+10507,98,CUST-0098,2023-09-06 22:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10507,98,CUST-0098,2023-09-06 22:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10508,98,CUST-0098,2023-11-29 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10509,99,CUST-0099,2023-04-17 07:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10509,99,CUST-0099,2023-04-17 07:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10509,99,CUST-0099,2023-04-17 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10510,99,CUST-0099,2023-07-18 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10511,99,CUST-0099,2023-08-27 20:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10511,99,CUST-0099,2023-08-27 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10511,99,CUST-0099,2023-08-27 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10511,99,CUST-0099,2023-08-27 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10511,99,CUST-0099,2023-08-27 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10512,99,CUST-0099,2023-10-04 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10513,99,CUST-0099,2023-11-14 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10513,99,CUST-0099,2023-11-14 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10513,99,CUST-0099,2023-11-14 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10514,100,CUST-0100,2022-10-21 04:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10514,100,CUST-0100,2022-10-21 04:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10514,100,CUST-0100,2022-10-21 04:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10515,100,CUST-0100,2022-12-03 07:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10515,100,CUST-0100,2022-12-03 07:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10515,100,CUST-0100,2022-12-03 07:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10516,100,CUST-0100,2023-01-19 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10516,100,CUST-0100,2023-01-19 10:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10517,100,CUST-0100,2023-04-14 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10518,100,CUST-0100,2023-06-02 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10518,100,CUST-0100,2023-06-02 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10518,100,CUST-0100,2023-06-02 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10518,100,CUST-0100,2023-06-02 17:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10519,100,CUST-0100,2023-08-17 20:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10520,100,CUST-0100,2023-11-09 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10521,101,CUST-0101,2023-01-16 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10521,101,CUST-0101,2023-01-16 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10522,101,CUST-0101,2023-03-03 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10522,101,CUST-0101,2023-03-03 01:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10522,101,CUST-0101,2023-03-03 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10523,101,CUST-0101,2023-04-05 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10523,101,CUST-0101,2023-04-05 02:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10523,101,CUST-0101,2023-04-05 02:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10524,101,CUST-0101,2023-06-13 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10524,101,CUST-0101,2023-06-13 05:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10524,101,CUST-0101,2023-06-13 05:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10525,101,CUST-0101,2023-08-01 12:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10525,101,CUST-0101,2023-08-01 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10525,101,CUST-0101,2023-08-01 12:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10526,101,CUST-0101,2023-11-04 14:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10527,102,CUST-0102,2023-09-10 23:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10528,102,CUST-0102,2023-10-01 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10528,102,CUST-0102,2023-10-01 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10528,102,CUST-0102,2023-10-01 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10528,102,CUST-0102,2023-10-01 09:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10528,102,CUST-0102,2023-10-01 09:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10529,102,CUST-0102,2023-11-14 10:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10529,102,CUST-0102,2023-11-14 10:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10530,102,CUST-0102,2024-01-25 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10531,103,CUST-0103,2023-04-01 00:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10531,103,CUST-0103,2023-04-01 00:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10531,103,CUST-0103,2023-04-01 00:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10532,103,CUST-0103,2023-07-08 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10532,103,CUST-0103,2023-07-08 01:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10532,103,CUST-0103,2023-07-08 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10532,103,CUST-0103,2023-07-08 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10533,103,CUST-0103,2023-09-09 10:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10533,103,CUST-0103,2023-09-09 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10534,103,CUST-0103,2023-12-03 17:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10535,103,CUST-0103,2024-01-04 21:00:00,Delivered,PROD-007,Anker 65W Fast Charger,3,35.0
+10535,103,CUST-0103,2024-01-04 21:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10535,103,CUST-0103,2024-01-04 21:00:00,Delivered,PROD-009,1TB External Solid State Drive,3,109.99
+10536,104,CUST-0104,2023-06-27 21:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10537,104,CUST-0104,2023-08-22 04:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10537,104,CUST-0104,2023-08-22 04:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10538,104,CUST-0104,2023-10-01 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10539,104,CUST-0104,2023-11-20 07:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10540,104,CUST-0104,2023-12-14 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10541,105,CUST-0105,2022-09-25 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10542,105,CUST-0105,2022-12-20 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10543,105,CUST-0105,2023-02-21 03:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10544,105,CUST-0105,2023-05-16 08:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10545,105,CUST-0105,2023-08-15 10:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10546,105,CUST-0105,2023-11-07 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10546,105,CUST-0105,2023-11-07 12:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10546,105,CUST-0105,2023-11-07 12:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10547,105,CUST-0105,2023-12-19 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10548,106,CUST-0106,2022-12-29 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10549,106,CUST-0106,2023-02-15 01:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10550,106,CUST-0106,2023-04-16 07:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10551,106,CUST-0106,2023-05-28 15:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10552,106,CUST-0106,2023-06-27 00:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10553,106,CUST-0106,2023-09-06 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10554,106,CUST-0106,2023-11-01 08:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10555,106,CUST-0106,2023-12-24 12:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10556,107,CUST-0107,2022-12-10 11:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10557,107,CUST-0107,2023-03-01 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10558,107,CUST-0107,2023-05-28 03:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10558,107,CUST-0107,2023-05-28 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10559,107,CUST-0107,2023-07-03 04:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10560,107,CUST-0107,2023-08-20 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10560,107,CUST-0107,2023-08-20 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10560,107,CUST-0107,2023-08-20 14:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10560,107,CUST-0107,2023-08-20 14:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10561,107,CUST-0107,2023-10-14 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10562,107,CUST-0107,2023-11-27 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10562,107,CUST-0107,2023-11-27 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10562,107,CUST-0107,2023-11-27 06:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10563,107,CUST-0107,2024-01-21 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10564,108,CUST-0108,2023-03-11 10:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10564,108,CUST-0108,2023-03-11 10:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10565,108,CUST-0108,2023-05-23 18:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10566,108,CUST-0108,2023-06-13 21:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10567,108,CUST-0108,2023-07-23 05:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10568,108,CUST-0108,2023-09-06 08:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10569,108,CUST-0108,2023-11-20 15:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10570,109,CUST-0109,2023-03-21 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10570,109,CUST-0109,2023-03-21 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10570,109,CUST-0109,2023-03-21 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10571,109,CUST-0109,2023-06-22 16:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10571,109,CUST-0109,2023-06-22 16:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10572,109,CUST-0109,2023-09-27 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10572,109,CUST-0109,2023-09-27 20:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10573,109,CUST-0109,2023-11-02 02:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10573,109,CUST-0109,2023-11-02 02:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10574,109,CUST-0109,2023-11-24 09:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10575,109,CUST-0109,2024-01-15 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10576,110,CUST-0110,2023-09-06 03:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10576,110,CUST-0110,2023-09-06 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10577,110,CUST-0110,2023-10-09 05:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10578,110,CUST-0110,2023-11-19 12:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10579,110,CUST-0110,2023-12-19 16:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10580,110,CUST-0110,2024-02-07 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10581,111,CUST-0111,2023-06-02 01:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10582,111,CUST-0111,2023-08-30 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10582,111,CUST-0111,2023-08-30 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10582,111,CUST-0111,2023-08-30 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10583,111,CUST-0111,2023-11-18 14:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10584,111,CUST-0111,2024-01-22 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10584,111,CUST-0111,2024-01-22 20:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10584,111,CUST-0111,2024-01-22 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10585,111,CUST-0111,2024-02-14 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10585,111,CUST-0111,2024-02-14 21:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10585,111,CUST-0111,2024-02-14 21:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10585,111,CUST-0111,2024-02-14 21:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10585,111,CUST-0111,2024-02-14 21:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10586,112,CUST-0112,2023-05-23 00:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10586,112,CUST-0112,2023-05-23 00:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10586,112,CUST-0112,2023-05-23 00:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10586,112,CUST-0112,2023-05-23 00:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10587,112,CUST-0112,2023-07-15 02:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10587,112,CUST-0112,2023-07-15 02:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10587,112,CUST-0112,2023-07-15 02:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10587,112,CUST-0112,2023-07-15 02:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10588,112,CUST-0112,2023-09-21 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10588,112,CUST-0112,2023-09-21 06:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10588,112,CUST-0112,2023-09-21 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10588,112,CUST-0112,2023-09-21 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10588,112,CUST-0112,2023-09-21 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10589,112,CUST-0112,2023-10-31 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10589,112,CUST-0112,2023-10-31 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10590,112,CUST-0112,2024-01-09 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10590,112,CUST-0112,2024-01-09 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10590,112,CUST-0112,2024-01-09 17:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10591,113,CUST-0113,2023-07-17 06:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10592,113,CUST-0113,2023-10-14 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10593,113,CUST-0113,2023-12-23 16:00:00,Cancelled,PROD-009,1TB External Solid State Drive,2,109.99
+10593,113,CUST-0113,2023-12-23 16:00:00,Cancelled,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10594,113,CUST-0113,2024-01-19 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10594,113,CUST-0113,2024-01-19 21:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10594,113,CUST-0113,2024-01-19 21:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10595,114,CUST-0114,2022-11-25 14:00:00,Delivered,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10595,114,CUST-0114,2022-11-25 14:00:00,Delivered,PROD-004,Noise Cancelling Headphones,2,149.99
+10595,114,CUST-0114,2022-11-25 14:00:00,Delivered,PROD-002,Mechanical Gaming Keyboard,2,89.5
+10596,114,CUST-0114,2023-01-09 20:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10597,114,CUST-0114,2023-04-01 01:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10597,114,CUST-0114,2023-04-01 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10597,114,CUST-0114,2023-04-01 01:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10597,114,CUST-0114,2023-04-01 01:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10598,114,CUST-0114,2023-05-06 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10598,114,CUST-0114,2023-05-06 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10598,114,CUST-0114,2023-05-06 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10598,114,CUST-0114,2023-05-06 06:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10598,114,CUST-0114,2023-05-06 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10599,114,CUST-0114,2023-08-04 15:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10599,114,CUST-0114,2023-08-04 15:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10599,114,CUST-0114,2023-08-04 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10599,114,CUST-0114,2023-08-04 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10600,114,CUST-0114,2023-11-12 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10600,114,CUST-0114,2023-11-12 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10600,114,CUST-0114,2023-11-12 16:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10601,114,CUST-0114,2024-01-12 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10601,114,CUST-0114,2024-01-12 19:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10601,114,CUST-0114,2024-01-12 19:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10602,115,CUST-0115,2023-04-25 05:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10603,115,CUST-0115,2023-06-21 10:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10603,115,CUST-0115,2023-06-21 10:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10603,115,CUST-0115,2023-06-21 10:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10603,115,CUST-0115,2023-06-21 10:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10604,115,CUST-0115,2023-07-30 18:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10604,115,CUST-0115,2023-07-30 18:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10604,115,CUST-0115,2023-07-30 18:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10604,115,CUST-0115,2023-07-30 18:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10605,115,CUST-0115,2023-08-28 03:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10605,115,CUST-0115,2023-08-28 03:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10605,115,CUST-0115,2023-08-28 03:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10606,115,CUST-0115,2023-11-26 06:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10606,115,CUST-0115,2023-11-26 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10607,115,CUST-0115,2024-01-20 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10607,115,CUST-0115,2024-01-20 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10607,115,CUST-0115,2024-01-20 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10607,115,CUST-0115,2024-01-20 16:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10607,115,CUST-0115,2024-01-20 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10608,116,CUST-0116,2023-07-17 01:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10609,116,CUST-0116,2023-09-21 10:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10610,116,CUST-0116,2023-12-09 11:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10611,116,CUST-0116,2024-02-29 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10611,116,CUST-0116,2024-02-29 13:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10611,116,CUST-0116,2024-02-29 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10611,116,CUST-0116,2024-02-29 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10612,117,CUST-0117,2023-01-10 00:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10612,117,CUST-0117,2023-01-10 00:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10612,117,CUST-0117,2023-01-10 00:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10612,117,CUST-0117,2023-01-10 00:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10612,117,CUST-0117,2023-01-10 00:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10613,117,CUST-0117,2023-04-13 06:00:00,Refunded,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10613,117,CUST-0117,2023-04-13 06:00:00,Refunded,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10613,117,CUST-0117,2023-04-13 06:00:00,Refunded,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10613,117,CUST-0117,2023-04-13 06:00:00,Refunded,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10614,117,CUST-0117,2023-06-25 08:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10614,117,CUST-0117,2023-06-25 08:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10615,117,CUST-0117,2023-09-24 17:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10616,117,CUST-0117,2023-12-25 20:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10616,117,CUST-0117,2023-12-25 20:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10616,117,CUST-0117,2023-12-25 20:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10616,117,CUST-0117,2023-12-25 20:00:00,Completed,PROD-009,1TB External Solid State Drive,3,109.99
+10617,118,CUST-0118,2023-04-05 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10617,118,CUST-0118,2023-04-05 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10617,118,CUST-0118,2023-04-05 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10618,118,CUST-0118,2023-07-05 08:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10618,118,CUST-0118,2023-07-05 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,2,149.99
+10618,118,CUST-0118,2023-07-05 08:00:00,Completed,PROD-004,Noise Cancelling Headphones,3,149.99
+10618,118,CUST-0118,2023-07-05 08:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10619,118,CUST-0118,2023-07-27 13:00:00,Completed,PROD-009,1TB External Solid State Drive,2,109.99
+10620,118,CUST-0118,2023-09-12 19:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10620,118,CUST-0118,2023-09-12 19:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10621,118,CUST-0118,2023-11-09 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10622,119,CUST-0119,2022-09-17 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10623,119,CUST-0119,2022-12-13 17:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10624,119,CUST-0119,2023-01-08 22:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10625,119,CUST-0119,2023-04-19 05:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10626,119,CUST-0119,2023-07-25 06:00:00,Completed,PROD-004,Noise Cancelling Headphones,1,149.99
+10626,119,CUST-0119,2023-07-25 06:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10626,119,CUST-0119,2023-07-25 06:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10627,119,CUST-0119,2023-08-29 10:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10628,119,CUST-0119,2023-11-12 17:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10629,119,CUST-0119,2024-01-13 23:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,3,89.5
+10630,120,CUST-0120,2023-02-10 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10631,120,CUST-0120,2023-04-02 19:00:00,Delivered,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10631,120,CUST-0120,2023-04-02 19:00:00,Delivered,PROD-008,Laptop Aluminum Stand,2,24.5
+10631,120,CUST-0120,2023-04-02 19:00:00,Delivered,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10631,120,CUST-0120,2023-04-02 19:00:00,Delivered,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10632,120,CUST-0120,2023-06-28 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10632,120,CUST-0120,2023-06-28 23:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10633,120,CUST-0120,2023-09-28 09:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10634,120,CUST-0120,2023-12-30 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10634,120,CUST-0120,2023-12-30 13:00:00,Completed,PROD-009,1TB External Solid State Drive,1,109.99
+10634,120,CUST-0120,2023-12-30 13:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10634,120,CUST-0120,2023-12-30 13:00:00,Completed,PROD-002,Mechanical Gaming Keyboard,1,89.5
+10634,120,CUST-0120,2023-12-30 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10635,121,CUST-0121,2023-08-06 16:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10635,121,CUST-0121,2023-08-06 16:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10636,122,CUST-0122,2023-04-28 13:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10636,122,CUST-0122,2023-04-28 13:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10636,122,CUST-0122,2023-04-28 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10636,122,CUST-0122,2023-04-28 13:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10637,122,CUST-0122,2023-06-05 14:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10637,122,CUST-0122,2023-06-05 14:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10637,122,CUST-0122,2023-06-05 14:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10638,123,CUST-0123,2023-01-18 16:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10639,123,CUST-0123,2023-03-16 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10640,124,CUST-0124,2023-09-06 15:00:00,Cancelled,PROD-007,Anker 65W Fast Charger,3,35.0
+10640,124,CUST-0124,2023-09-06 15:00:00,Cancelled,PROD-008,Laptop Aluminum Stand,2,24.5
+10640,124,CUST-0124,2023-09-06 15:00:00,Cancelled,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10641,125,CUST-0125,2023-05-12 17:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10642,125,CUST-0125,2023-07-15 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10643,126,CUST-0126,2023-01-14 11:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10644,126,CUST-0126,2023-03-10 15:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10645,127,CUST-0127,2023-07-09 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10646,128,CUST-0128,2023-05-25 10:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10647,128,CUST-0128,2023-07-01 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10648,129,CUST-0129,2023-07-05 13:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10649,130,CUST-0130,2023-06-03 21:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10650,131,CUST-0131,2023-04-11 17:00:00,Cancelled,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10650,131,CUST-0131,2023-04-11 17:00:00,Cancelled,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10651,132,CUST-0132,2023-08-10 19:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10652,132,CUST-0132,2023-09-15 22:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10653,133,CUST-0133,2023-08-25 18:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10654,134,CUST-0134,2023-02-14 13:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10655,134,CUST-0134,2023-04-24 21:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10656,135,CUST-0135,2023-05-26 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,2,18.5
+10657,135,CUST-0135,2023-07-10 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,2,35.0
+10657,135,CUST-0135,2023-07-10 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10658,136,CUST-0136,2023-05-05 08:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10659,136,CUST-0136,2023-07-12 14:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10659,136,CUST-0136,2023-07-12 14:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10660,137,CUST-0137,2023-06-30 23:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,3,59.99
+10661,138,CUST-0138,2023-02-08 06:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10662,138,CUST-0138,2023-04-18 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10662,138,CUST-0138,2023-04-18 15:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10663,139,CUST-0139,2023-07-07 14:00:00,Delivered,PROD-008,Laptop Aluminum Stand,2,24.5
+10663,139,CUST-0139,2023-07-07 14:00:00,Delivered,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10664,140,CUST-0140,2023-06-28 12:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10665,140,CUST-0140,2023-09-30 21:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10666,141,CUST-0141,2023-03-12 22:00:00,Completed,PROD-008,Laptop Aluminum Stand,1,24.5
+10666,141,CUST-0141,2023-03-12 22:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,1,18.5
+10666,141,CUST-0141,2023-03-12 22:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10666,141,CUST-0141,2023-03-12 22:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,3,45.0
+10667,142,CUST-0142,2023-02-16 15:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10667,142,CUST-0142,2023-02-16 15:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10667,142,CUST-0142,2023-02-16 15:00:00,Completed,PROD-005,USB-C Multi-Port Docking Station,1,59.99
+10668,142,CUST-0142,2023-05-14 22:00:00,Completed,PROD-011,Desk Mat Extended Gaming Pad,3,18.5
+10669,143,CUST-0143,2023-09-12 21:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10670,144,CUST-0144,2023-01-10 16:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10671,144,CUST-0144,2023-04-20 19:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,2,45.0
+10671,144,CUST-0144,2023-04-20 19:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10672,145,CUST-0145,2023-05-21 20:00:00,Completed,PROD-008,Laptop Aluminum Stand,2,24.5
+10672,145,CUST-0145,2023-05-21 20:00:00,Completed,PROD-007,Anker 65W Fast Charger,1,35.0
+10673,146,CUST-0146,2023-08-22 14:00:00,Completed,PROD-010,Webcam 1080p HD with Microphone,1,45.0
+10674,147,CUST-0147,2023-09-06 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,1,29.99
+10675,148,CUST-0148,2023-06-28 16:00:00,Refunded,PROD-005,USB-C Multi-Port Docking Station,2,59.99
+10676,148,CUST-0148,2023-07-31 23:00:00,Completed,PROD-008,Laptop Aluminum Stand,3,24.5
+10677,149,CUST-0149,2023-06-29 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,2,49.95
+10677,149,CUST-0149,2023-06-29 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,3,49.95
+10677,149,CUST-0149,2023-06-29 23:00:00,Completed,PROD-006,Smart Fitness Fitness Tracker,1,49.95
+10677,149,CUST-0149,2023-06-29 23:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,2,29.99
+10678,150,CUST-0150,2023-07-26 06:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0
+10679,150,CUST-0150,2023-09-19 12:00:00,Completed,PROD-001,Wireless Ergonomic Mouse,3,29.99
+10679,150,CUST-0150,2023-09-19 12:00:00,Completed,PROD-007,Anker 65W Fast Charger,3,35.0

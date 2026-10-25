@@ -1,0 +1,9 @@
+segment_label,Cluster 0,Cluster 1,Cluster 2,Cluster 3,Total
+At Risk,29,2,0,0,31
+Big Spenders,3,0,0,1,4
+Champions,2,0,23,0,25
+Lost Customers,0,26,0,1,27
+Loyal Customers,29,0,2,0,31
+New Customers,0,0,0,22,22
+Potential Loyalists,3,0,0,4,7
+Total,66,28,25,28,147
