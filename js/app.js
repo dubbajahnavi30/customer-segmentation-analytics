@@ -10,22 +10,22 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // Segment Color Map
+  // Segment Color Map - Clean Non-Neon Executive Palette
   const SEGMENT_COLORS = {
-    'Champions': { border: '#10b981', bg: 'rgba(16, 185, 129, 0.15)', text: '#34d399' },
-    'Loyal Customers': { border: '#3b82f6', bg: 'rgba(59, 130, 246, 0.15)', text: '#60a5fa' },
-    'Big Spenders': { border: '#a855f7', bg: 'rgba(168, 85, 247, 0.15)', text: '#c084fc' },
-    'Potential Loyalists': { border: '#f59e0b', bg: 'rgba(245, 158, 11, 0.15)', text: '#fbbf24' },
-    'New Customers': { border: '#06b6d4', bg: 'rgba(6, 182, 212, 0.15)', text: '#22d3ee' },
-    'At Risk': { border: '#f43f5e', bg: 'rgba(244, 63, 94, 0.15)', text: '#fb7185' },
-    'Lost Customers': { border: '#64748b', bg: 'rgba(100, 116, 139, 0.18)', text: '#94a3b8' }
+    'Champions': { border: '#2ea043', bg: 'rgba(46, 160, 67, 0.12)', text: '#3fb950' },
+    'Loyal Customers': { border: '#388bfd', bg: 'rgba(56, 139, 253, 0.12)', text: '#58a6ff' },
+    'Big Spenders': { border: '#d29922', bg: 'rgba(210, 153, 34, 0.12)', text: '#e3b341' },
+    'Potential Loyalists': { border: '#1f6feb', bg: 'rgba(31, 111, 235, 0.12)', text: '#79c0ff' },
+    'New Customers': { border: '#8957e5', bg: 'rgba(137, 87, 229, 0.12)', text: '#d2a8ff' },
+    'At Risk': { border: '#da3633', bg: 'rgba(218, 54, 51, 0.12)', text: '#f85149' },
+    'Lost Customers': { border: '#6e7681', bg: 'rgba(110, 118, 129, 0.14)', text: '#8b949e' }
   };
 
   const CLUSTER_COLORS = {
-    'Cluster 0': { border: '#818cf8', bg: 'rgba(129, 140, 248, 0.2)', text: '#a5b4fc' },
-    'Cluster 1': { border: '#64748b', bg: 'rgba(100, 116, 139, 0.2)', text: '#94a3b8' },
-    'Cluster 2': { border: '#10b981', bg: 'rgba(16, 185, 129, 0.2)', text: '#34d399' },
-    'Cluster 3': { border: '#06b6d4', bg: 'rgba(6, 182, 212, 0.2)', text: '#22d3ee' }
+    'Cluster 0': { border: '#388bfd', bg: 'rgba(56, 139, 253, 0.12)', text: '#58a6ff' },
+    'Cluster 1': { border: '#6e7681', bg: 'rgba(110, 118, 129, 0.14)', text: '#8b949e' },
+    'Cluster 2': { border: '#2ea043', bg: 'rgba(46, 160, 67, 0.12)', text: '#3fb950' },
+    'Cluster 3': { border: '#d29922', bg: 'rgba(210, 153, 34, 0.12)', text: '#e3b341' }
   };
 
   const ACTION_PLAYBOOKS = {
@@ -39,6 +39,35 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // State
+  let currentCurrency = 'INR'; // 'INR' (₹) default as requested, or 'USD' ($)
+  const USD_TO_INR_RATE = 83.0;
+  let currentModalCust = null;
+
+  function formatCurrency(amountUSD, showDecimals = 2) {
+    if (currentCurrency === 'INR') {
+      const inr = amountUSD * USD_TO_INR_RATE;
+      if (showDecimals === 0) {
+        return `₹${Math.round(inr).toLocaleString('en-IN')}`;
+      }
+      return `₹${inr.toLocaleString('en-IN', {
+        minimumFractionDigits: showDecimals,
+        maximumFractionDigits: showDecimals
+      })}`;
+    } else {
+      if (showDecimals === 0) {
+        return `$${Math.round(amountUSD).toLocaleString('en-US')}`;
+      }
+      return `$${amountUSD.toLocaleString('en-US', {
+        minimumFractionDigits: showDecimals,
+        maximumFractionDigits: showDecimals
+      })}`;
+    }
+  }
+
+  function getCurrencySymbol() {
+    return currentCurrency === 'INR' ? '₹' : '$';
+  }
+
   let currentSortCol = 'customer_id';
   let currentSortAsc = true;
   let currentPage = 1;
@@ -80,15 +109,19 @@ document.addEventListener('DOMContentLoaded', () => {
   // 2. RENDER KPI METRICS
   // ========================================================================
   function initKPIs() {
-    document.getElementById('kpi-total-revenue').textContent = `$${data.total_revenue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    document.getElementById('kpi-total-revenue').textContent = formatCurrency(data.total_revenue, 0);
     document.getElementById('kpi-total-customers').textContent = data.total_customers.toString();
-    document.getElementById('kpi-avg-spend').textContent = `$${data.avg_monetary.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`;
+    document.getElementById('kpi-avg-spend').textContent = formatCurrency(data.avg_monetary, 0);
     
-    // Champions share
+    // Champions share & total spend
     const champ = data.segment_profiles.find(s => s.segment === 'Champions');
     if (champ) {
       const share = ((champ.total_spending / data.total_revenue) * 100).toFixed(1);
       document.getElementById('kpi-champions-share').textContent = `${share}%`;
+      const champSub = document.getElementById('kpi-champions-sub');
+      if (champSub) {
+        champSub.textContent = `${formatCurrency(champ.total_spending, 0)} Total Spend (${champ.count} accounts)`;
+      }
     }
 
     // Churn share (At Risk + Lost)
@@ -108,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     container.innerHTML = data.segment_profiles.map(seg => {
-      const color = SEGMENT_COLORS[seg.segment] || { border: '#6366f1', bg: 'rgba(99,102,241,0.1)', text: '#fff' };
+      const color = SEGMENT_COLORS[seg.segment] || { border: '#10b981', bg: 'rgba(16,185,129,0.15)', text: '#fff' };
       const playbook = ACTION_PLAYBOOKS[seg.segment] || 'Standard customer engagement strategy.';
       
       return `
@@ -131,7 +164,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="seg-stat-lbl">Avg Orders</div>
               </div>
               <div>
-                <div class="seg-stat-val">$${Math.round(seg.avg_monetary).toLocaleString()}</div>
+                <div class="seg-stat-val">${formatCurrency(seg.avg_monetary, 0)}</div>
                 <div class="seg-stat-lbl">Avg Spend</div>
               </div>
             </div>
@@ -221,8 +254,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const ctxSpend = document.getElementById('chart-segment-spend')?.getContext('2d');
     if (ctxSpend) {
       const labels = data.segment_profiles.map(s => s.segment);
-      const totalSpends = data.segment_profiles.map(s => s.total_spending);
-      const avgSpends = data.segment_profiles.map(s => s.avg_monetary);
+      const rate = currentCurrency === 'INR' ? USD_TO_INR_RATE : 1;
+      const sym = getCurrencySymbol();
+      const totalSpends = data.segment_profiles.map(s => s.total_spending * rate);
+      const avgSpends = data.segment_profiles.map(s => s.avg_monetary * rate);
 
       chartSpend = new Chart(ctxSpend, {
         type: 'bar',
@@ -230,19 +265,19 @@ document.addEventListener('DOMContentLoaded', () => {
           labels,
           datasets: [
             {
-              label: 'Total Spend ($)',
+              label: `Total Spend (${sym})`,
               data: totalSpends,
-              backgroundColor: 'rgba(99, 102, 241, 0.75)',
-              borderColor: '#6366f1',
+              backgroundColor: 'rgba(46, 160, 67, 0.75)',
+              borderColor: '#2ea043',
               borderWidth: 1,
               borderRadius: 4,
               yAxisID: 'y'
             },
             {
-              label: 'Avg Spend / Customer ($)',
+              label: `Avg Spend / Customer (${sym})`,
               data: avgSpends,
-              backgroundColor: 'rgba(6, 182, 212, 0.75)',
-              borderColor: '#06b6d4',
+              backgroundColor: 'rgba(56, 139, 253, 0.75)',
+              borderColor: '#388bfd',
               borderWidth: 1,
               borderRadius: 4,
               yAxisID: 'y1'
@@ -260,18 +295,28 @@ document.addEventListener('DOMContentLoaded', () => {
             y: {
               type: 'linear',
               position: 'left',
-              title: { display: true, text: 'Total Spending ($)', color: '#94a3b8' },
+              title: { display: true, text: `Total Spending (${sym})`, color: '#94a3b8' },
               grid: { color: 'rgba(255, 255, 255, 0.05)' }
             },
             y1: {
               type: 'linear',
               position: 'right',
-              title: { display: true, text: 'Avg Spend ($)', color: '#94a3b8' },
+              title: { display: true, text: `Avg Spend (${sym})`, color: '#94a3b8' },
               grid: { drawOnChartArea: false }
             }
           },
           plugins: {
-            legend: { position: 'top', labels: { boxWidth: 12, color: '#e2e8f0' } }
+            legend: { position: 'top', labels: { boxWidth: 12, color: '#e2e8f0' } },
+            tooltip: {
+              callbacks: {
+                label: (ctx) => {
+                  const val = ctx.datasetIndex === 0
+                    ? data.segment_profiles[ctx.dataIndex].total_spending
+                    : data.segment_profiles[ctx.dataIndex].avg_monetary;
+                  return ` ${ctx.dataset.label}: ${formatCurrency(val, 2)}`;
+                }
+              }
+            }
           }
         }
       });
@@ -292,23 +337,23 @@ document.addEventListener('DOMContentLoaded', () => {
             {
               label: 'Inertia (SSE)',
               data: inertias,
-              borderColor: '#f59e0b',
-              backgroundColor: 'rgba(245, 158, 11, 0.1)',
+              borderColor: '#d29922',
+              backgroundColor: 'rgba(210, 153, 34, 0.1)',
               borderWidth: 2,
               tension: 0.3,
-              pointBackgroundColor: '#f59e0b',
+              pointBackgroundColor: '#d29922',
               pointRadius: 4,
               yAxisID: 'y'
             },
             {
               label: 'Silhouette Score',
               data: silScores,
-              borderColor: '#10b981',
-              backgroundColor: 'rgba(16, 185, 129, 0.1)',
+              borderColor: '#388bfd',
+              backgroundColor: 'rgba(56, 139, 253, 0.1)',
               borderWidth: 2,
               tension: 0.3,
-              pointBackgroundColor: (ctx) => (ctx.dataIndex === 2 ? '#fff' : '#10b981'),
-              pointBorderColor: '#10b981',
+              pointBackgroundColor: (ctx) => (ctx.dataIndex === 2 ? '#fff' : '#388bfd'),
+              pointBorderColor: '#388bfd',
               pointRadius: (ctx) => (ctx.dataIndex === 2 ? 8 : 4),
               yAxisID: 'y1'
             }
@@ -349,14 +394,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. K-Means Scatter Plot (Recency vs Monetary)
     const ctxScatter = document.getElementById('chart-kmeans-scatter')?.getContext('2d');
     if (ctxScatter) {
+      const rate = currentCurrency === 'INR' ? USD_TO_INR_RATE : 1;
+      const sym = getCurrencySymbol();
+
       // Group points by cluster
       const clusterDatasets = ['Cluster 0', 'Cluster 1', 'Cluster 2', 'Cluster 3'].map(clName => {
-        const color = CLUSTER_COLORS[clName] || { border: '#fff' };
+        const color = CLUSTER_COLORS[clName] || { border: '#10b981' };
         const points = data.customers
           .filter(c => c.kmeans_cluster === clName)
           .map(c => ({
             x: c.recency,
-            y: c.monetary,
+            y: c.monetary * rate,
+            rawM: c.monetary,
             code: c.customer_code,
             segment: c.segment_label,
             cluster: clName
@@ -366,7 +415,7 @@ document.addEventListener('DOMContentLoaded', () => {
           label: clName,
           data: points,
           backgroundColor: color.border,
-          borderColor: '#0f172a',
+          borderColor: '#0d1117',
           borderWidth: 1,
           pointRadius: 5,
           pointHoverRadius: 8
@@ -385,7 +434,7 @@ document.addEventListener('DOMContentLoaded', () => {
               grid: { color: 'rgba(255, 255, 255, 0.05)' }
             },
             y: {
-              title: { display: true, text: 'Monetary Spend ($)', color: '#94a3b8' },
+              title: { display: true, text: `Monetary Spend (${sym})`, color: '#94a3b8' },
               grid: { color: 'rgba(255, 255, 255, 0.05)' }
             }
           },
@@ -395,13 +444,43 @@ document.addEventListener('DOMContentLoaded', () => {
               callbacks: {
                 label: (ctx) => {
                   const p = ctx.raw;
-                  return ` ${p.code} (${p.cluster}): $${p.y.toLocaleString()} spend | ${p.x} days recency [${p.segment}]`;
+                  return ` ${p.code} (${p.cluster}): ${formatCurrency(p.rawM, 2)} spend | ${p.x} days recency [${p.segment}]`;
                 }
               }
             }
           }
         }
       });
+    }
+  }
+
+  function updateChartCurrencies() {
+    const sym = getCurrencySymbol();
+    const rate = currentCurrency === 'INR' ? USD_TO_INR_RATE : 1;
+
+    if (chartSpend) {
+      chartSpend.data.datasets[0].label = `Total Spend (${sym})`;
+      chartSpend.data.datasets[0].data = data.segment_profiles.map(s => s.total_spending * rate);
+      chartSpend.data.datasets[1].label = `Avg Spend / Customer (${sym})`;
+      chartSpend.data.datasets[1].data = data.segment_profiles.map(s => s.avg_monetary * rate);
+      chartSpend.options.scales.y.title.text = `Total Spending (${sym})`;
+      chartSpend.options.scales.y1.title.text = `Avg Spend (${sym})`;
+      chartSpend.update();
+    }
+
+    const spendTitle = document.getElementById('chart-spend-title');
+    if (spendTitle) {
+      spendTitle.innerHTML = `Total &amp; Average Monetary Spending (${sym})`;
+    }
+
+    if (chartScatter) {
+      chartScatter.data.datasets.forEach(ds => {
+        ds.data.forEach(p => {
+          p.y = p.rawM * rate;
+        });
+      });
+      chartScatter.options.scales.y.title.text = `Monetary Spend (${sym})`;
+      chartScatter.update();
     }
   }
 
@@ -413,7 +492,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!container) return;
 
     container.innerHTML = data.kmeans_profiles.map(cl => {
-      const color = CLUSTER_COLORS[cl.cluster] || { border: '#6366f1', bg: 'rgba(99,102,241,0.1)', text: '#fff' };
+      const color = CLUSTER_COLORS[cl.cluster] || { border: '#10b981', bg: 'rgba(16,185,129,0.15)', text: '#fff' };
       return `
         <div class="segment-item-card" style="border-top: 3px solid ${color.border};">
           <div>
@@ -434,7 +513,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="seg-stat-lbl">Centroid Freq</div>
               </div>
               <div>
-                <div class="seg-stat-val">$${Math.round(cl.avg_monetary).toLocaleString()}</div>
+                <div class="seg-stat-val">${formatCurrency(cl.avg_monetary, 0)}</div>
                 <div class="seg-stat-lbl">Centroid Monetary</div>
               </div>
             </div>
@@ -446,7 +525,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           <div class="segment-action-box" style="border-left-color: ${color.border};">
             <span class="action-label" style="color: ${color.text};">Aggregate Economic Value</span>
-            Total Cluster Spend: <strong>$${cl.total_spending.toLocaleString()}</strong> (${((cl.total_spending / data.total_revenue) * 100).toFixed(1)}% of total revenue)
+            Total Cluster Spend: <strong>${formatCurrency(cl.total_spending, 0)}</strong> (${((cl.total_spending / data.total_revenue) * 100).toFixed(1)}% of total revenue)
           </div>
         </div>
       `;
@@ -623,7 +702,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     displayR.textContent = `${r} day${r === 1 ? '' : 's'}`;
     displayF.textContent = `${f} order${f === 1 ? '' : 's'}`;
-    displayM.textContent = `$${m.toLocaleString()}`;
+    displayM.textContent = formatCurrency(m, 0);
 
     const rScore = computeRScore(r);
     const fScore = computeFScore(f);
@@ -644,6 +723,16 @@ document.addEventListener('DOMContentLoaded', () => {
     simClusterText.textContent = clusterMatch;
 
     simPlaybookText.textContent = ACTION_PLAYBOOKS[segment] || 'Standard marketing follow-up.';
+  }
+
+  function updateSimulatorLabels() {
+    const sym = getCurrencySymbol();
+    const lbl = document.getElementById('sim-monetary-label-text');
+    if (lbl) lbl.textContent = `Monetary Spend (Lifetime net ${sym})`;
+    const minLbl = document.getElementById('sim-monetary-min');
+    if (minLbl) minLbl.textContent = formatCurrency(20, 0);
+    const maxLbl = document.getElementById('sim-monetary-max');
+    if (maxLbl) maxLbl.textContent = `${formatCurrency(12000, 0)}+`;
   }
 
   sliderR?.addEventListener('input', updateSimulator);
@@ -724,7 +813,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <td class="mono-cell" style="font-weight:700; color:#fff;">${c.customer_code}</td>
             <td class="mono-cell">${c.recency} d</td>
             <td class="mono-cell">${c.frequency}</td>
-            <td class="mono-cell" style="color:#34d399; font-weight:600;">$${c.monetary.toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>
+            <td class="mono-cell" style="color:#e6edf3; font-weight:600;">${formatCurrency(c.monetary, 2)}</td>
             <td class="mono-cell">${c.R_Score}</td>
             <td class="mono-cell">${c.F_Score}</td>
             <td class="mono-cell">${c.M_Score}</td>
@@ -749,6 +838,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (pageIndicator) pageIndicator.textContent = `Page ${currentPage} of ${totalPages}`;
     if (prevBtn) prevBtn.disabled = currentPage <= 1;
     if (nextBtn) nextBtn.disabled = currentPage >= totalPages;
+
+    const thSpend = document.getElementById('th-spend');
+    if (thSpend) thSpend.innerHTML = `Spend (${getCurrencySymbol()}) &#8597;`;
 
     // Attach row click listener for Customer Detail Modal
     tableBody.querySelectorAll('tr[data-id]').forEach(row => {
@@ -807,16 +899,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function openCustomerModal(cust) {
     if (!modalCust) return;
+    currentModalCust = cust;
     document.getElementById('modal-cust-code').textContent = `${cust.customer_code} (Account #${cust.customer_id})`;
     
-    const segColor = SEGMENT_COLORS[cust.segment_label] || { bg: 'rgba(99,102,241,0.1)', text: '#fff', border: '#6366f1' };
+    const segColor = SEGMENT_COLORS[cust.segment_label] || { bg: 'rgba(46,160,67,0.12)', text: '#3fb950', border: '#2ea043' };
     const segBadge = document.getElementById('modal-segment-badge');
     segBadge.textContent = cust.segment_label;
     segBadge.style.background = segColor.bg;
     segBadge.style.color = segColor.text;
     segBadge.style.border = `1px solid ${segColor.border}`;
 
-    const clColor = CLUSTER_COLORS[cust.kmeans_cluster] || { text: '#a5b4fc', bg: 'rgba(99,102,241,0.15)' };
+    const clColor = CLUSTER_COLORS[cust.kmeans_cluster] || { text: '#58a6ff', bg: 'rgba(56,139,253,0.12)' };
     const clBadge = document.getElementById('modal-cluster-badge');
     clBadge.textContent = cust.kmeans_cluster;
     clBadge.style.color = clColor.text;
@@ -824,7 +917,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('modal-recency').textContent = `${cust.recency} d`;
     document.getElementById('modal-frequency').textContent = cust.frequency.toString();
-    document.getElementById('modal-monetary').textContent = `$${cust.monetary.toLocaleString('en-US', { minimumFractionDigits: 2 })}`;
+    document.getElementById('modal-monetary').textContent = formatCurrency(cust.monetary, 2);
 
     document.getElementById('modal-r-score').textContent = cust.R_Score;
     document.getElementById('modal-f-score').textContent = cust.F_Score;
@@ -861,7 +954,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       file: '03_total_spending_by_segment.png',
       title: 'Figure 3: Aggregate Spending Contribution',
-      desc: 'Cumulative revenue contribution ($) per segment highlighting Pareto concentration in Champions.'
+      desc: 'Cumulative revenue contribution per segment highlighting Pareto concentration in Champions.'
     },
     {
       file: '04_avg_monetary_by_segment.png',
@@ -1016,6 +1109,35 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ========================================================================
+  // CURRENCY TOGGLE INTERACTION
+  // ========================================================================
+  const btnInr = document.getElementById('btn-currency-inr');
+  const btnUsd = document.getElementById('btn-currency-usd');
+
+  function setCurrency(newCurrency) {
+    if (currentCurrency === newCurrency) return;
+    currentCurrency = newCurrency;
+
+    btnInr?.classList.toggle('active', currentCurrency === 'INR');
+    btnUsd?.classList.toggle('active', currentCurrency === 'USD');
+
+    initKPIs();
+    renderSegmentCards();
+    renderClusterCards();
+    updateChartCurrencies();
+    updateSimulator();
+    updateSimulatorLabels();
+    renderCustomerTable();
+
+    if (currentModalCust && modalCust && modalCust.classList.contains('active')) {
+      document.getElementById('modal-monetary').textContent = formatCurrency(currentModalCust.monetary, 2);
+    }
+  }
+
+  btnInr?.addEventListener('click', () => setCurrency('INR'));
+  btnUsd?.addEventListener('click', () => setCurrency('USD'));
+
+  // ========================================================================
   // INITIALIZE EVERYTHING
   // ========================================================================
   initKPIs();
@@ -1024,6 +1146,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHeatmap();
   initCharts();
   updateSimulator();
+  updateSimulatorLabels();
   applyCustomerFilters();
   renderGallery();
 });
